@@ -4,11 +4,11 @@ This repository is a prototype for a web app created in the Web Development VI c
 
 ## Team Members
 
-Francois Mittins <https://www.instagram.com/fm.photography_design/>
-Project Manager
+Francois Mittins
+Project Manager <https://www.instagram.com/fm.photography_design>
 
 Shrinidhi Sridhar
-UI / UX Lead <http://shrinidhi.design/>
+UI / UX Lead <http://shrinidhi.design>
 
-Melany Pelletier-Vaillant <http://melanypv.ca
+Melany Pelletier-Vaillant <http://melanypv.ca>
 Web Lead
