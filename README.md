@@ -10,5 +10,5 @@ Project Manager <https://www.instagram.com/fm.photography_design>
 Shrinidhi Sridhar
 UI / UX Lead <http://shrinidhi.design>
 
-Melany Pelletier-Vaillant <http://melanypv.ca>
-Web Lead
+Melany Pelletier-Vaillant
+Web Lead <http://melanypv.ca>
