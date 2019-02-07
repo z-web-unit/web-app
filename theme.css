@@ -3,5 +3,6 @@
   --color-primary-light: #F7F7FA;
   --color-dark-gray: #5F5F5F;
 
-  --font-primary: 'Sarabun', sans-serif;
+  --font-primary: Sarabun, sans-serif;
+  --font-secondary: Georgia, serif;
 }
