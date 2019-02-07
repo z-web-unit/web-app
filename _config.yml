@@ -1,5 +1,13 @@
 permalink: pretty
 theme: jekyll_patternbot
-
 patternbot:
+  title: "Higher"
+  description: |
+    A platform for Graphic Designers from Algonquin College to find and apply for employment.
   font_url: "https://fonts.googleapis.com/css?family=Sarabun:400,400i,700"
+  colors:
+    background: "--color-secondary-light"
+  rationales:
+    colors.primary: |
+      This colour reprents something.
+      

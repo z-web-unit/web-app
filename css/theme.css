@@ -1,14 +1,14 @@
 :root {
   --color-primary: #5D39D8;
-  --color-primary-light: #F7F7FA;
-  --color-dark-gray: #5F5F5F;
+  --color-primary-light: #EBE5FF;
+  --color-secondary: #5F5F5F;
+  --color-secondary-light: #F7F7FA;
 
   --font-primary: Sarabun, sans-serif;
 }
 
 ::selection {
-  background-color: var(--color-primary);
-  color: white;
+  background-color: var(--color-primary-light);
 }
 
 h1 {
@@ -32,4 +32,19 @@ a:hover {
 strong {
   color: var(--color-primary);
   font-weight: 700;
+}
+
+/*@utility Apply primary purple color*/
+.color-purple {
+  color: var(--color-primary);
+}
+
+/*@utility Apply dark gray color*/
+.color-dark-gray {
+  color: var(--color-dark-gray);
+}
+
+/*@utility Apply light gray background*/
+.section-light {
+  background-color: var(--color-primary-light);
 }
