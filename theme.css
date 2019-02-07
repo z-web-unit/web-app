@@ -9,6 +9,7 @@
 
 ::selection {
   background-color: var(--color-primary-light);
+  color: blue;
 }
 
 h1 {
@@ -26,7 +27,7 @@ a {
 }
 
 /* @utility Apply dark gray colour to element */
-.primary-color {
+.secondary-color {
   color: var(--color-dark-gray);
 }
 
