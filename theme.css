@@ -1,17 +1,36 @@
 :root {
   --color-primary: #5D39D8;
-  --color-primary-light: #F7F7FA;
-  --color-dark-gray: #5F5F5F;
+  --color-primary-light: #EBE5FF;
+  --color-secondary-light: #F7F7FA;
+  --color-secondary-dark: #5F5F5F;
 
-  /* --font-primary: Sarabun, sans-serif;
-  --font-secondary: Georgia, serif; */
+  --font-primary: Sarabun, sans-serif;
+}
+
+::selection {
+  background-color: var(--color-primary-light);
 }
 
 h1 {
-  color: var(--color-dark-gray);
+  color: var(--color-secondary-dark);
 }
 
 a {
   color: var(--color-primary);
   text-decoration: none;
+}
+
+/* @utility Apply colour purple to element */
+.primary-color {
+  color: var(--color-primary);
+}
+
+/* @utility Apply dark gray colour to element */
+.primary-color {
+  color: var(--color-dark-gray);
+}
+
+/* @utility Apply light background to element */
+.background-light {
+  background-color: var(--color-dark-gray);
 }
