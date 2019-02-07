@@ -5,3 +5,31 @@
 
   --font-primary: Sarabun, sans-serif;
 }
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+h1 {
+  color: var(--color-dark-gray);
+  font-weight: 500;
+}
+
+h3 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-dark-gray);
+  transition: all .3s ease;
+}
+
+strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
