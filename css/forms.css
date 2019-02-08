@@ -11,9 +11,3 @@
   border-radius: 2px;
   color: var(--color-secondary);
 }
-
-.btn {
-  font-family: var(--font-primary);
-  background-color: var(--color-primary);
-  border: 2px solid var(--color-primary);
-}
