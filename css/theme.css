@@ -22,6 +22,8 @@ h3 {
 
 a {
   color: var(--color-primary);
+  font-family: var(--font-primary);
+  text-decoration: none;
 }
 
 a:hover {
@@ -41,10 +43,18 @@ strong {
 
 /*@utility Apply dark gray color*/
 .color-dark-gray {
-  color: var(--color-dark-gray);
+  color: var(--color-secondary);
+}
+
+.color-light-gray {
+  color: var(--color-secondary-light);
 }
 
 /*@utility Apply light gray background*/
 .section-light {
   background-color: var(--color-primary-light);
+}
+
+p {
+  font-family: var(--font-primary);
 }
