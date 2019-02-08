@@ -1,0 +1,9 @@
+patterns:
+  basic:
+    title: "primary button"
+    description:  |
+    Primary button to be used.
+      ghost:
+        title: "Secondary button"
+        description:  |
+        Used for links.
