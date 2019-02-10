@@ -3,6 +3,8 @@
   --color-primary-light: #EBE5FF;
   --color-secondary-light: #F7F7FA;
   --color-secondary-dark: #5F5F5F;
+  --color-white: #FFF;
+  --color-black: #000;
 
   --font-primary: Sarabun, sans-serif;
 }
@@ -34,4 +36,8 @@ a {
 /* @utility Apply light background to element */
 .background-light {
   background-color: var(--color-dark-gray);
+}
+
+.background-white {
+  background-color: var(--color-white);
 }

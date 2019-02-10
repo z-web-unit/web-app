@@ -1,0 +1,41 @@
+<section class="job-description-overlay">
+
+  <div class="absolute pin-tc pad-t-2 background-white max-length">
+
+    <div class="grid push-2">
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
+        <i class="icon i-96">
+          <img src="/images/{{site.data.job-description.brandIcon}}" alt="Logo of {{site.data.job-description.job-descriptionbrandName}}">
+        </i>
+      </div>
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 text-left">
+        <h2 class="mega push-none">{{site.data.job-description.jobPosition}}</h2>
+        <p class="milli">{{site.data.job-description.brandName}}</p>
+      </div>
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
+      </div>
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
+        {% pattern buttons/basic %}
+      </div>
+    </div>
+
+    <div class="job-description">
+      <h3 class="mega push-1-4">Job Description</h3>
+      <p class="kilo">{{site.data.job-description.jobDescriptionText}}</p>
+    </div>
+
+    <div class="requirements">
+      <h3 class="mega push-1-4">Requirements</h3>
+      <ul class="list-group">
+        <li class="list-group-item">{{site.data.job-description.requirements}}</li>
+      </ul>
+    </div>
+
+    <div class="company-description">
+      <h3 class="mega push-1-4">Company Description</h3>
+      <p class="kilo">{{site.data.job-description.companyDescription}}</p>
+    </div>
+
+  </div>
+
+</section>
