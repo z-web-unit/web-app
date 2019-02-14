@@ -1,0 +1,8 @@
+.close:checked ~ .job-description-overlay {
+  display: none;
+}
+
+[type="checkbox"] + label::before {
+  position: absolute;
+  top: -3em;
+}
