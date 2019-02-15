@@ -27,6 +27,10 @@ h3 {
   font-family: var(--font-primary);
 }
 
+h4 {
+  font-family: var(--font-primary);
+}
+
 a {
   color: var(--color-primary);
   font-family: var(--font-primary);
