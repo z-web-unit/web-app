@@ -3,6 +3,7 @@
   --color-primary-light: #EBE5FF;
   --color-secondary: #5F5F5F;
   --color-secondary-light: #F7F7FA;
+  --color-white: #fff;
 
   --font-primary: Sarabun, sans-serif;
 }
@@ -50,11 +51,20 @@ strong {
   color: var(--color-secondary-light);
 }
 
+.color-white {
+  color: var(--color-white);
+}
+
 /*@utility Apply light gray background*/
 .section-light {
   background-color: var(--color-primary-light);
 }
 
+.section-dark {
+  background-color: var(--color-primary);
+}
+
+li,
 p {
   font-family: var(--font-primary);
 }
