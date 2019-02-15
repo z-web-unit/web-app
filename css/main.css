@@ -8,3 +8,5 @@
 {% include_relative buttons.css %}
 {% include_relative cards.css %}
 {% include_relative forms.css %}
+{% pattern_css %}
+

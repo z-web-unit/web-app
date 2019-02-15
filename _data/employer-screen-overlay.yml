@@ -1,0 +1,12 @@
+emailReply:
+  greetings: Good morning
+  personName: Jane Richards
+  message: I recently came across the job posting on higher for a UX/UI intern. I am very interested in applying for the same and I feel I will be a good fit for the company
+  signature: Thanks & Regards,<br>Rosamund Pike
+
+studentProfile:
+  fullName: Jill Rebel
+  position: 3rd year Graphic Design Student
+  education: Algonquin College 2014-2017<br>Graphic Design
+  workExperience: 5+ years’ experience as a UX/UI Designer
+  skills: Wireframing
