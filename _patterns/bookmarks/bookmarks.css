@@ -1,0 +1,8 @@
+.bookmark-grid {
+  background-color: #fff;
+  border-bottom: 1px solid var(--color-primary-light);
+}
+
+.purple {
+  color: var(--color-primary);
+}
