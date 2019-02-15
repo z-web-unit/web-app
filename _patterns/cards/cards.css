@@ -2,6 +2,18 @@
   display: none;
 }
 
+.close:checked ~ .icon {
+  display: none;
+}
+
+.close:checked ~ .email-overlay {
+  display: none;
+}
+
+.close:checked ~ .student-profile-overlay {
+  display: none;
+}
+
 [type="checkbox"] + label::before {
   position: absolute;
   top: -3em;
