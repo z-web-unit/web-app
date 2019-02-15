@@ -15,10 +15,16 @@
 h1 {
   color: var(--color-dark-gray);
   font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+h2 {
+  font-family: var(--font-primary);
 }
 
 h3 {
   color: var(--color-primary);
+  font-family: var(--font-primary);
 }
 
 a {
