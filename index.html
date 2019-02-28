@@ -1,15 +1,35 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Web app</title>
-</head>
-<body>
+---
+layout: default
+image: pepper-logo.png
+brandName: Pepper inc.
+position: Branding Intern
+buttonName: Find jobs
+buttonLink: /job-listings
+---
 
-  <h1>Web app</h1>
-  <h2>Dev lead's temporary heading</h2>
-  <h2>Franks header</h2>
-  <h2>Shri's heading</h2>
-  
-</body>
-</html>
+<div class="banner island-2 section-light">
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
+      <h2 class="exa push-none color-purple">Get hired with higher.</h2>
+      <p class="milli push">With higher, designers can <br>find and apply to jobs.</p>
+      <div class="push-2">
+        {% pattern buttons/light-button %}
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex gutter" src="/images/landing-page-image.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="search-bar gutter-2 pad-t-1-2 pad-b-1-2">
+  <div class="w-1 section-secondary-light pad-t-1-2 pad-b-1-2 border">
+    <i class="icon i-32 gutter-2"><svg><use xlink:href="/images/icons.svg#search"></use></svg></i>
+  </div>
+</div>
+
+<div class="grid grid-middle">
+  {% pattern cards/basic-cards %}
+  {% pattern cards/basic-cards %}
+  {% pattern cards/basic-cards %}
+</div>
