@@ -16,9 +16,7 @@
 .label {
   width: 100%;
   cursor: pointer;
-  font-weight: bold;
-  font-size: 18px;
-  color: #7f7f7f;
+  color: var(--color-secondary-medium);
   transition: background 0.1s, color 0.1s;
   font-family: var(--font-primary);
   font-weight: 500;
@@ -33,7 +31,7 @@
 }
 
 .label:active {
-  background: #ccc;
+  color: var(--color-secondary-dark);
 }
 
 .input:focus + .label {
@@ -42,13 +40,11 @@
 }
 
 .input:checked + .label {
-  background: #fff;
-  color: #000;
+  color: var(--color-secondary-dark);
 }
 
 .panel {
   display: none;
-  background: #fff;
 }
 
 @media (min-width: 600px) {

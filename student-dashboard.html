@@ -2,8 +2,10 @@
 layout: student
 ---
 <section class="section-secondary-light">
-
-  {% pattern cards/tabs %}
+  <div class="grid">
+    <div class="unit xs-1 s-1-2 m-2-3 l-2-3 gutter-2">
+      {% pattern navigations/tabs %}
+    </div>
     <div class="unit xs-1 s-1-2 m-1-3 l-1-3 section-white gutter-2 pad-t-2">
       <h2 class="mega">Application Status</h2>
       {% pattern cards/application-status-card %}
