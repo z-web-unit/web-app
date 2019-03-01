@@ -1,10 +1,5 @@
 ---
 layout: default
-image: pepper-logo.png
-brandName: Pepper inc.
-position: Branding Intern
-buttonName: Find jobs
-buttonLink: /job-listings
 ---
 
 <div class="banner island-2 section-light">
@@ -28,8 +23,8 @@ buttonLink: /job-listings
   </div>
 </div>
 
-<div class="grid grid-middle">
-  {% pattern cards/basic-cards %}
-  {% pattern cards/basic-cards %}
-  {% pattern cards/basic-cards %}
+<div class="grid grid-middle unit-content-distribute">
+  {% for cards in site.data.job-cards %}
+    {% pattern cards/basic-cards image=cards.image brandName=cards.brandName position=cards.position %}
+  {% endfor %}
 </div>

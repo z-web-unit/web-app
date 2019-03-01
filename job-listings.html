@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="search-bar gutter-2 pad-t-1-2 pad-b-1-2">
+  <div class="w-1 section-secondary-light pad-t-1-2 pad-b-1-2 border">
+    <i class="icon i-32 gutter-2"><svg><use xlink:href="/images/icons.svg#search"></use></svg></i>
+  </div>
+</div>
+<div class="island-2">
+  {% for jobs in site.data.job-listings %}
+    {% pattern cards/job-postings company=jobs.company position=jobs.position duration=jobs.duration location=jobs.location daysLeft=jobs.daysLeft %}
+  {% endfor %}
+</div>
