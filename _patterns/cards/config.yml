@@ -1,0 +1,45 @@
+title: "Cards"
+description: |
+  Cards are created to display grouped content of different objects. It usually leads to another page pr overlay with a detailed description of the card. The cards maybe vertical or horizontal.
+
+patterns:
+  basic-cards:
+    title: "Basic Card"
+    description: |
+      Card for displaying important horizontal content. It can be used in homepage.
+    fields:
+      - name: image
+        type: image
+        example: "pepper.jpg"
+      - name: brandName
+        type: string
+        example: "Creative"
+      - name: position
+        type: string
+        example: "Intern"
+      - name: linkName
+        type: string
+        example: "Apply Now"
+      - name: buttonLink
+        type: string
+        example: "/job-listings"
+    job-postings:
+      title: "Job Postings Card"
+      description: |
+        Card for displaying important horizontal content. It can be used in dashboards.
+      fields:
+        - name: company
+          type: string
+          example: "Agency"
+        - name: position
+          type: string
+          example: "Art director"
+        - name: duration
+          type: string
+          example: "4 months"
+        - name: location
+          type: string
+          example: "Ottawa, Ontario"
+        - name: daysLeft
+          type: string
+          example: "6 days left"
