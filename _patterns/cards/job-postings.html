@@ -1,21 +1,18 @@
 <div class="relative">
-  <div class="grid grid-middle job-posting-grid pad-t-1-2 pad-b-1-2 gutter">
-    <div class="unit xs-1-2 s-1-2 m-1-6 text-center">
-        <h3 class="milli push-0">{{jobs.company | default: 'Pepper'}}</h3>
+  <div class="grid grid-middle job-posting-grid pad-t-1-2 pad-b-1-2 gutter-1-2">
+    <div class="unit xs-1-2 s-1-2 m-1-5 text-center">
+        <h3 class="milli push-0 text-left">{{jobs.company | default: 'Pepper'}}</h3>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="micro color-dark-gray push-0">{{jobs.position | default: 'Pepper'}}</p>
+    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
+        <p class="micro color-dark-gray push-0 text-left">{{jobs.position | default: 'Pepper'}}</p>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0">{{jobs.duration | default: 'Pepper'}}</p>
+    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
+        <p class="nano color-dark-gray push-0 text-left">{{jobs.location | default: 'Ottawa, Ontario'}}</p>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0">{{jobs.location | default: 'Pepper'}}</p>
+    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
+        <p class="nano color-dark-gray push-0 text-left">{{jobs.daysLeft | default: '4 days left'}}</p>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0">{{jobs.daysLeft | default: 'Pepper'}}</p>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 pad-t-1-2 pad-b-1-2 text-center text-right">
+    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center text-right">
       <i class="icon i-32">
         <svg class="bookmark-icon">
           <use xlink:href="/images/icons.svg#bookmark"></use>

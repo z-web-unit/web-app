@@ -2,6 +2,7 @@
   --color-primary: #5D39D8;
   --color-primary-light: #ebe6ff;
   --color-secondary: #5F5F5F;
+  --color-secondary-medium: #BFBFC9;
   --color-secondary-light: #F7F7FA;
   --color-white: #fff;
 
@@ -51,6 +52,11 @@ strong {
 /*@utility Apply dark gray color*/
 .color-dark-gray {
   color: var(--color-secondary);
+}
+
+/*@utility Apply medium gray color*/
+.color-medium-gray {
+  color: var(--color-secondary-medium);
 }
 
 .color-light-gray {
