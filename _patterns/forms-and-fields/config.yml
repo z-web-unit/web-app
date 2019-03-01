@@ -1,0 +1,39 @@
+title: "Forms"
+description: |
+  Fields and input for forms.
+
+patterns:
+  username-id-label:
+    title: "Username ID"
+    description: |
+      Label for username
+    fields:
+      - name: label
+        type: string
+        example: "Username"
+      - name: placeholder
+        type: string
+        example: "Enter username"
+  name-label:
+    title: "Name"
+    description: |
+      Label for names
+    fields:
+      - name: label
+        type: string
+        example: "Adda Lovelace"
+      - name: placeholder
+        type: string
+        example: "Enter details"
+
+    text-box:
+      title: "Text box"
+      description: |
+        Label for bio
+      fields:
+        - name: label
+          type: string
+          example: "Bio"
+        - name: placeholder
+          type: string
+          example: "Enter details"
