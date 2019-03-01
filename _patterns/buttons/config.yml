@@ -1,9 +1,38 @@
+title: "Buttons"
+description: |
+  Buttons library to use in cards, websites, etc.,
+
 patterns:
   basic:
     title: "primary button"
     description:  |
-    Primary button to be used.
-      ghost:
-        title: "Secondary button"
-        description:  |
-        Used for links.
+      Primary button to be used.
+    fields:
+      - name: linkName
+        type: string
+        example: "Apply Now"
+      - name: buttonLink
+        type: string
+        example: "/job-postings"
+  ghost:
+    title: "Secondary button"
+    description:  |
+      Used for links.
+    fields:
+      - name: linkName
+        type: string
+        example: "Apply Now"
+      - name: buttonLink
+        type: string
+        example: "/job-postings"
+  light-button:
+    title: "Light button"
+    description:  |
+      Used for links.
+    fields:
+      - name: linkName
+        type: string
+        example: "Apply Now"
+      - name: buttonLink
+        type: string
+        example: "/job-postings"
