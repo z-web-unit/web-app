@@ -1,0 +1,33 @@
+---
+layout: employer
+---
+<section class="section-secondary-light">
+  <div class="grid">
+    <div class="unit s-1-2 m-2-3 gutter-2 pad-t-2 pad-b-2">
+      <h2 class="mega">Junior Graphic Designer</h2>
+      <div class="grid">
+        <div class="unit xs-1-2 s-1-2 m-2-5">
+          <p class="nano push-1-4 gutter-1-2 color-medium-gray">Applicant Name</p>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-5">
+          <p class="nano push-1-4 gutter-1-2 color-medium-gray">Location</p>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-5">
+          <p class="nano push-1-4 gutter-1-2 color-medium-gray">Location</p>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-5">
+          <p class="nano push-1-4 gutter-1-2 color-medium-gray">Days Left to Apply</p>
+        </div>
+      </div>
+      {% for jobs in site.data.job-applications %}
+        {% pattern cards/job-application %}
+      {% endfor %}
+    </div>
+    <div class="unit s-1-2 m-1-3 section-white pad-t-2">
+      <h2 class="mega gutter-2">Postings</h2>
+      {% for posts in site.data.job-applications %}
+        {% pattern cards/employer-postings %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

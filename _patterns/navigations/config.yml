@@ -1,0 +1,9 @@
+title: "Navigations"
+description: |
+  Navigations are used to help the user navigate the page.
+
+patterns:
+  main-navigation:
+    title: Main Navigation
+    description: |
+      Main navigation used on the home page and any page before loging into web application.

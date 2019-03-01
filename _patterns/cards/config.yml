@@ -43,3 +43,7 @@ patterns:
         - name: daysLeft
           type: string
           example: "6 days left"
+        application-status-card:
+          title: "Application Status Card"
+          description: |
+            These cards display the point at which your application is with different companies.
