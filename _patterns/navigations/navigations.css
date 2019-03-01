@@ -1,3 +1,67 @@
 .border-bottom {
   border-bottom: 1px solid #e2e2e2;
 }
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+}
+
+.label {
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  color: #7f7f7f;
+  transition: background 0.1s, color 0.1s;
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+[type="radio"] + label::before {
+  display: none;
+}
+
+.label:hover {
+  color: var
+}
+
+.label:active {
+  background: #ccc;
+}
+
+.input:focus + .label {
+  box-shadow: inset 0px 0px 0px 3px #2aa1c0;
+  z-index: 1;
+}
+
+.input:checked + .label {
+  background: #fff;
+  color: #000;
+}
+
+.panel {
+  display: none;
+  background: #fff;
+}
+
+@media (min-width: 600px) {
+  .label {
+    width: auto;
+  }
+
+  .panel {
+    order: 99;
+  }
+}
+
+.input:checked + .label + .panel {
+  display: block;
+}
+}
