@@ -1,3 +1,16 @@
 ---
 layout: student
 ---
+<section class="section-light">
+  <div class="grid">
+    <div class="unit s-1-2 m-3-4 gutter-2">
+      <h2 class="mega">Favourites</h2>
+      {% for jobs in site.data.job-listings %}
+        {% pattern cards/job-postings %}
+      {% endfor %}
+    </div>
+    <div class="unit s-1-2 m-1-4 section-white">
+      <h2 class="mega">Application Status</h2>
+    </div>
+  </div>
+</section>
