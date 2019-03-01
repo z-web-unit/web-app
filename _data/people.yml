@@ -4,7 +4,12 @@ students:
     location: Ottawa, Ontario
     workExperience: None
     skills: Illustration, Web Design
+  - fullName: Shrinidhi Sridhar
+    position: Innovator
+    location: Somewhere
+    workExperience: All of it.
+    skills: all
 
-employers:
-  - fullName:
-  - company: 
+# employers:
+#   - fullName: Shri
+#     company: Pepper Inc.
