@@ -40,3 +40,8 @@
   color: var(--color-secondary-dark);
   transition: all .3s ease;
 }
+
+.application-card {
+  border-top: 1px solid var(--color-secondary-light);
+  border-bottom: 1px solid var(--color-secondary-light);
+}

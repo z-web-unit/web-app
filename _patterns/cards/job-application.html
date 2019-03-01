@@ -1,16 +1,16 @@
-<div class="relative">
+<div class="">
   <div class="grid grid-middle job-posting-grid pad-t-1-2 pad-b-1-2 gutter-1-2">
     <div class="unit xs-1-2 s-1-2 m-2-5 text-center">
-        <h3 class="milli push-0 text-left">{{jobs.applicantName | default: 'John Smith'}}</h3>
+        <h3 class="milli push-0 text-left">{{posts.applicantName | default: 'John Smith'}}</h3>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="micro color-dark-gray push-0 text-left">{{jobs.location | default: 'Ottawa, Ontario'}}</p>
+    <div class="unit xs-1-2 s-1-2 m-1-5 pad-t-1-2 pad-b-1-2 gutter-1-2 text-left">
+        <p class="micro color-dark-gray push-0 text-left">{{posts.location | default: 'Ottawa, Ontario'}}</p>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0 text-left">{{jobs.status | default: 'New'}}</p>
+    <div class="unit xs-1-2 s-1-2 m-1-5 pad-t-1-2 pad-b-1-2 gutter-1-2 text-left">
+        <p class="nano color-dark-gray push-0 text-left">{{posts.status | default: 'New'}}</p>
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
-      <p class="nano color-dark-gray push-0 text-left ib">{{jobs.dateApplied | default: '22 hours ago'}}</p>
+    <div class="unit xs-1-2 s-1-2 m-1-5 pad-t-1-2 pad-b-1-2 gutter-1-2 text-left">
+      <p class="nano color-dark-gray push-0 text-left ib">{{posts.dateApplied | default: '22 hours ago'}}</p>
       <i class="icon i-32 left-arrow">
         <svg>
           <use xlink:href="/images/icons.svg#left-arrow"></use>
