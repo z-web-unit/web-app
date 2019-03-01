@@ -8,7 +8,8 @@ students:
     position: Innovator
     location: Somewhere
     workExperience: All of it.
+    skills: all
 
-employers:
-  - fullName: Shri
-    company: Pepper Inc.
+# employers:
+#   - fullName: Shri
+#     company: Pepper Inc.
