@@ -59,6 +59,7 @@ strong {
   color: var(--color-secondary-medium);
 }
 
+/*@utility Apply light gray color*/
 .color-light-gray {
   color: var(--color-secondary-light);
 }
@@ -83,6 +84,11 @@ strong {
   background-color: #fff;
 }
 
+/*@utility Apply secondary light background*/
+.section-secondary-light {
+  background-color: var(--color-secondary-light);
+}
+
 li,
 p {
   font-family: var(--font-primary);
@@ -92,8 +98,4 @@ p {
   border-radius: 4px;
   border-style: solid;
   border-color: var(--color-secondary-light);
-}
-
-.section-secondary-light {
-  background-color: var(--color-secondary-light);
 }
