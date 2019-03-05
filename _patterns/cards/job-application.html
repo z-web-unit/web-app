@@ -11,11 +11,14 @@
     </div>
     <div class="unit xs-1-2 s-1-2 m-1-5 pad-t-1-2 pad-b-1-2 gutter-1-2 text-left">
       <p class="nano color-dark-gray push-0 text-left ib">{{posts.dateApplied | default: '22 hours ago'}}</p>
-      <i class="icon i-32 left-arrow">
+      <i class="icon i-32 left-arrow-employer">
         <svg>
           <use xlink:href="/images/icons.svg#left-arrow"></use>
         </svg>
       </i>
+      <div class="student-profile-overlay absolute pin-c section-light island-2">
+        {% pattern cards/student-profile-overlay %}
+      </div>
     </div>
   </div>
 </div>

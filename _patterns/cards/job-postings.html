@@ -13,16 +13,22 @@
         <p class="nano color-dark-gray push-0 text-left">{{include.daysLeft | default: '4 days left'}}</p>
     </div>
     <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center text-right">
-      <i class="icon i-32">
+      <i class="icon i-32 bookmark">
         <svg class="bookmark-icon">
           <use xlink:href="/images/icons.svg#bookmark"></use>
         </svg>
-      </i>
-      <i class="icon i-32 left-arrow">
-        <svg>
-          <use xlink:href="/images/icons.svg#left-arrow"></use>
+        <svg class="bookmarked-icon">
+          <use xlink:href="/images/icons.svg#bookmarked"></use>
         </svg>
       </i>
+      <i class="icon i-32 left-arrow-student">
+        <svg>
+          <use xlink:href="/images/icons.svg#left-arrow-student"></use>
+        </svg>
+      </i>
+      <div class="job-description absolute pin-tc section-light island-2">
+        {% pattern cards/job-description %}
+      </div>
     </div>
   </div>
 </div>
