@@ -1,17 +1,17 @@
 <section>
 
-  <input type="checkbox" name="close" value="close" class="close" id="close-card">
-  <label class="close-label" for="close-card">
+  <!-- <input type="checkbox" name="close" value="close" class="close" id="close-card">
+  <label class="close-label" for="close-card"> -->
     <i class="icon i-32 absolute pin-tr">
       <svg>
         <use xlink:href="/images/icons.svg#close"></use>
       </svg>
     </i>
-  </label>
+  <!-- </label> -->
 
   <div class="job-description-overlay">
 
-    <div class="pad-t-2 background-white max-length">
+    <div class="background-white max-length">
 
       <div class="grid push-2">
         <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
@@ -25,26 +25,26 @@
         </div>
         <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
         </div>
-        <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 text-left">
           {% pattern buttons/basic %}
         </div>
       </div>
 
       <div class="job-description">
         <h3 class="mega push-1-4">Job Description</h3>
-        <p class="kilo">{{site.data.job-description.jobDescriptionText}}</p>
+        <p class="milli">{{site.data.job-description.jobDescriptionText}}</p>
       </div>
 
       <div class="requirements">
         <h3 class="mega push-1-4">Requirements</h3>
         <ul class="list-group">
-          <li class="list-group-item">{{site.data.job-description.requirements}}</li>
+          <li class="list-group-item milli">{{site.data.job-description.requirements}}</li>
         </ul>
       </div>
 
       <div class="company-description">
         <h3 class="mega push-1-4">Company Description</h3>
-        <p class="kilo">{{site.data.job-description.companyDescription}}</p>
+        <p class="milli">{{site.data.job-description.companyDescription}}</p>
       </div>
 
     </div>

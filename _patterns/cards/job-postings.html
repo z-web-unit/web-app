@@ -1,28 +1,37 @@
-<div>
-  <div class="grid grid-middle job-posting-grid pad-t-1-2 pad-b-1-2 gutter-1-2">
-    <div class="unit xs-1-2 s-1-2 m-1-5 text-center">
-        <h3 class="milli push-0 text-left">{{include.company | default: 'Pepper'}}</h3>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0 text-left">{{include.position | default: 'Graphic Designer'}}</p>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0 text-left">{{include.location | default: 'Ottawa, Ontario'}}</p>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
-        <p class="nano color-dark-gray push-0 text-left">{{include.daysLeft | default: '4 days left'}}</p>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center text-right">
-      <i class="icon i-32">
-        <svg class="bookmark-icon">
-          <use xlink:href="/images/icons.svg#bookmark"></use>
-        </svg>
-      </i>
-      <i class="icon i-32 left-arrow">
-        <svg>
-          <use xlink:href="/images/icons.svg#left-arrow"></use>
-        </svg>
-      </i>
+<div class="">
+
+  <div class="">
+    <div class="grid grid-middle job-posting-grid pad-t-1-2 pad-b-1-2 gutter-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-5 text-center">
+          <h3 class="milli push-0 text-left">{{include.company | default: 'Pepper'}}</h3>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
+          <p class="micro color-dark-gray push-0 text-left">{{include.position | default: 'Graphic Designer'}}</p>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
+          <p class="nano color-dark-gray push-0 text-left">{{include.location | default: 'Ottawa, Ontario'}}</p>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
+          <p class="nano color-dark-gray push-0 text-left">{{include.daysLeft | default: '4 days left'}}</p>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center text-right">
+        <i class="icon i-32">
+          <svg class="bookmark-icon">
+            <use xlink:href="/images/icons.svg#bookmark"></use>
+          </svg>
+        </i>
+        <i class="icon i-32 left-arrow main">
+          <svg>
+            <use xlink:href="/images/icons.svg#left-arrow"></use>
+          </svg>
+        </i>
+        <div class="job-description absolute pin-tc section-light island-2 text-left">
+          {% pattern cards/job-description %}
+        </div>
+      </div>
     </div>
   </div>
+
+
+
 </div>
