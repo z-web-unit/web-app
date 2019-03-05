@@ -1,16 +1,13 @@
-.close:checked ~ .job-description-overlay {
-  display: none;
-}
-
-.close:checked ~ .icon {
-  display: none;
-}
 
 .close:checked ~ .email-overlay {
   display: none;
 }
 
 .close:checked ~ .student-profile-overlay {
+  display: none;
+}
+
+.job-description {
   display: none;
 }
 
