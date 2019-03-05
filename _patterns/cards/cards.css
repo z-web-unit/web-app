@@ -11,10 +11,13 @@
   display: none;
 }
 
+.bookmarked-icon {
+  display: none;
+}
 
 [type="checkbox"] + label::before {
   position: absolute;
-  top: -60em;
+  top: -20em;
 }
 
 .emp-card {
@@ -26,7 +29,9 @@
   border-bottom: 1px solid var(--color-primary-light);
 }
 
-.left-arrow {
+.left-arrow,
+.left-arrow-student,
+.left-arrow-employer {
   transform: rotate(180deg);
 }
 
@@ -42,4 +47,21 @@
 .application-card {
   border-top: 1px solid var(--color-secondary-light);
   border-bottom: 1px solid var(--color-secondary-light);
+}
+
+.job-description {
+  display: none;
+}
+
+.job-description-overlay,
+.student-profile-overlay {
+  width: 60vw;
+}
+
+.student-profile-overlay {
+  display: none;
+}
+
+.icon svg {
+  fill: var(--color-primary);
 }
