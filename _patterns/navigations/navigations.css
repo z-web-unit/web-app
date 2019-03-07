@@ -83,7 +83,6 @@ nav {
 /* ----------------------------------------- */
 
 label.menu-icon {
-  padding: 10px;
   color: var(--color-primary);
   cursor: pointer;
   stroke-width: 5;
