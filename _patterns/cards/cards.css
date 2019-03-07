@@ -35,8 +35,9 @@
   transform: rotate(180deg);
 }
 
-.bookmark-icon {
-  color: var(--color-primary);
+.bookmark-icon{
+  stroke: var(--color-primary);
+  fill: #ffffff;
 }
 
 .bookmark-icon:hover {
@@ -60,8 +61,4 @@
 
 .student-profile-overlay {
   display: none;
-}
-
-.icon svg {
-  fill: var(--color-primary);
 }
