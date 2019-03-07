@@ -14,7 +14,6 @@
 }
 
 .label {
-  width: 100%;
   cursor: pointer;
   color: var(--color-secondary-medium);
   transition: background 0.1s, color 0.1s;
@@ -44,6 +43,21 @@
 
 .panel {
   display: none;
+}
+
+/* Student Menu */
+
+#studentMenu {
+  position: absolute;
+  right: -300px;
+}
+
+.student-menu:hover .menu-icon {
+  color: var(--color-primary)
+}
+
+.student-menu input:checked ~ #studentMenu {
+  right: 0;
 }
 
 @media (min-width: 600px) {
