@@ -10,9 +10,9 @@
         <img itemprop="image" src="/images/logo-32.svg" alt="Higher brand logo that higher">
       </i>
     </a>
-    <nav role="navigation" id="navigation" tabindex="0" itemscope itemtype="http://schema.org/SiteNavigationElement" class="nav text-right unit xs-2-3 s-2-3 m-1-2 l-2-3 gutter">
-      <a aria-label="find jobs" itemprop="Url" class="milli color-dark-gray push-r" href="#">Zee Jones</a>
-      <div id="menuToggle">
+    <!-- <nav role="navigation" id="navigation" tabindex="0" itemscope itemtype="http://schema.org/SiteNavigationElement" class="nav text-right unit xs-2-3 s-2-3 m-1-2 l-2-3 gutter"> -->
+      <!-- <a aria-label="find jobs" itemprop="Url" class="milli color-dark-gray push-r" href="#">Zee Jones</a> -->
+      <!-- <div id="menuToggle"> -->
         <!-- <input type="checkbox">
         <span class="menu">
           <i class="icon i-32">
@@ -21,23 +21,24 @@
             </svg>
           </i>
         </span> -->
-
-        <label class="student-menu ib">
-          <input type="checkbox">
-          <span class="menu-icon">
-            <i class="icon i-32">
-              <svg>
-                <use xlink:href="/images/icons.svg#navigation"></use>
-              </svg>
-            </i>
-          </span>
+        <div class="unit xs-2-3 s-2-3 m-2-3 l-2-3 text-right">
+        <input type="checkbox" id="menutoggle">
+        <label for="menutoggle" class="menu-icon">
+          <i class="icon i-32 open">
+            <svg>
+              <use xlink:href="/images/icons.svg#navigation"></use>
+            </svg>
+          </i>
         </label>
-        <ul id="studentMenu" class="list-group">
-          <li>One</li>
-          <li>Two</li>
-          <li>Three</li>
-        </ul>
+
+       <div class="menu text-center">
+         <nav role="navigation" id="nav" tabindex="0">
+           <ol class="list-group pad-t-2">
+             <li><a class="milli" href="index.html">Profile</a></li>
+             <li><a class="milli" href="#about">Settings</a></li>
+             <li><a class="milli" href="rescues.html">Log Out</a></li>
+           </ol>
+         </nav>
+         </div>
       </div>
-    </nav>
-  </div>
 </header>

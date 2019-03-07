@@ -47,17 +47,76 @@
 
 /* Student Menu */
 
-#studentMenu {
+.menu {
+  width: 240px;
+  height: 100%;
   position: absolute;
-  right: -300px;
+  background-color: var(--color-primary);
+  left: -240px;
+  top: 0;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
-.student-menu:hover .menu-icon {
-  color: var(--color-primary)
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  padding: 1em .5em;
 }
 
-.student-menu input:checked ~ #studentMenu {
-  right: 0;
+nav a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+/* ----------------------------------------- */
+
+label.menu-icon {
+  padding: 10px;
+  color: var(--color-primary);
+  cursor: pointer;
+  stroke-width: 5;
+  transition: all .2s ease-in-out;
+}
+
+label img.open {
+  transition: all .2s ease-in-out;
+}
+
+label.menu-icon:hover {
+  transform: scale(1.1);
+}
+
+.close {
+  display: none;
+}
+
+#menutoggle {
+  display: none;
+}
+
+#menutoggle:checked ~ label img.open {
+  transform: rotate(90deg);
+}
+
+#menutoggle:checked ~ .menu-icon {
+  color: var(--color-secondary-dark);
+  stroke: 5px;
+}
+
+#menutoggle:checked ~ .menu {
+  left: 0;
 }
 
 @media (min-width: 600px) {
