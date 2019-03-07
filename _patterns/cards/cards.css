@@ -35,16 +35,6 @@
   transform: rotate(180deg);
 }
 
-.bookmark-icon{
-  stroke: var(--color-primary);
-  fill: #ffffff;
-}
-
-.bookmark-icon:hover {
-  color: var(--color-secondary-dark);
-  transition: all .3s ease;
-}
-
 .application-card {
   border-top: 1px solid var(--color-secondary-light);
   border-bottom: 1px solid var(--color-secondary-light);
@@ -61,4 +51,19 @@
 
 .student-profile-overlay {
   display: none;
+}
+
+.checkmark {
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  color: #ffffff;
+  transition: color .2s ease-in-out;
+}
+
+.container:hover .checkmark {
+  color: var(--color-primary)
+}
+
+.container input:checked ~ .checkmark {
+  color: var(--color-primary);
 }
