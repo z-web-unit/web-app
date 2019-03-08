@@ -3,11 +3,16 @@ layout: default
 ---
 <div class="max-length island">
 <h1 class="text-center">Sign up</h1>
-{% pattern forms-and-fields/multi-show-label label="Username" %}
-{% pattern forms-and-fields/name-label label="Full name" placeholder="Enter full name" %}
-{% pattern forms-and-fields/username-id-label label="Business/Student ID" placeholder="Enter username" %}
-{% pattern forms-and-fields/email-label %}
-{% pattern forms-and-fields/password-label %}
-<div class="text-center">
-  {% pattern buttons/basic linkname="Log In" buttonLink="/employer-dashboard" %}
+<div class="grid">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    {% pattern forms-and-fields/multi-show-label label="Username" %}
+    {% pattern forms-and-fields/name-label label="Full name" placeholder="Enter full name" %}
+    {% pattern forms-and-fields/username-id-label label="Business/Student ID" placeholder="Enter username" %}
+    {% pattern forms-and-fields/email-label %}
+    {% pattern forms-and-fields/password-label %}
+    <div class="text-center dashboard-btn">
+      {% pattern buttons/basic linkname="Log In" buttonLink="/employer-dashboard" %}
+    </div>
+  </div>
+
 </div>
