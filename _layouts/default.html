@@ -10,7 +10,13 @@
 </head>
 <body>
 
-  {% pattern navigations/main-navigation %}
+  {% if page.url == "/" %}
+    {% pattern navigations/main-navigation %}
+  {% elsif page.url == "/student-dashboard/" %}
+    {% pattern navigations/student-navigation %}
+  {% elsif page.url == "/employer-dashboard/" %}
+    {% pattern navigations/employer-navigation %}
+  {% endif %}
 
   <main role="main" id="main" tabindex="0">
     {{content}}
@@ -35,6 +41,7 @@
       <p class="text-center push-none"><small class="pico color-dark-gray">© higher inc. 2019</small></p>
     </div>
   </footer>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
