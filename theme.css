@@ -1,0 +1,43 @@
+:root {
+  --color-primary: #5D39D8;
+  --color-primary-light: #EBE5FF;
+  --color-secondary-light: #F7F7FA;
+  --color-secondary-dark: #5F5F5F;
+  --color-white: #FFF;
+  --color-black: #000;
+
+  --font-primary: Sarabun, sans-serif;
+}
+
+::selection {
+  background-color: var(--color-primary-light);
+  color: blue;
+}
+
+h1 {
+  color: var(--color-secondary-dark);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* @utility Apply colour purple to element */
+.primary-color {
+  color: var(--color-primary);
+}
+
+/* @utility Apply dark gray colour to element */
+.secondary-color {
+  color: var(--color-dark-gray);
+}
+
+/* @utility Apply light background to element */
+.background-light {
+  background-color: var(--color-dark-gray);
+}
+
+.background-white {
+  background-color: var(--color-white);
+}
