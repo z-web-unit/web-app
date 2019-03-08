@@ -23,27 +23,35 @@ patterns:
       - name: buttonLink
         type: string
         example: "/job-listings"
-    job-postings:
-      title: "Job Postings Card"
-      description: |
-        Card for displaying important horizontal content. It can be used in dashboards.
-      fields:
-        - name: company
-          type: string
-          example: "Agency"
-        - name: position
-          type: string
-          example: "Art director"
-        - name: duration
-          type: string
-          example: "4 months"
-        - name: location
-          type: string
-          example: "Ottawa, Ontario"
-        - name: daysLeft
-          type: string
-          example: "6 days left"
-        application-status-card:
-          title: "Application Status Card"
-          description: |
-            These cards display the point at which your application is with different companies.
+  job-postings:
+    title: "Job Postings Card"
+    description: |
+      Card to present job posting information.
+    fields:
+      - name: company
+        type: string
+        example: "Agency"
+      - name: position
+        type: string
+        example: "Art director"
+      - name: duration
+        type: string
+        example: "4 months"
+      - name: location
+        type: string
+        example: "Ottawa, Ontario"
+      - name: daysLeft
+        type: string
+        example: "6 days left"
+  job-bookmarks:
+    title: "Bookmarked Job Posting Card"
+    description: |
+      These cards display a bookmarked job posting.
+  application-status-card:
+    title: "Application Status Card"
+    description: |
+      These cards display the point at which your application is with different companies.
+  employer-postings:
+    title: "Employer Posting"
+    description: |
+      A card to show employers which of their jobs are posted on the board.
