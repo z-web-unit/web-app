@@ -11,3 +11,19 @@
   border-radius: 2px;
   color: var(--color-secondary);
 }
+
+.signup {
+  background-color: #fff;
+  padding: 2rem;
+
+}
+
+.log-in-page {
+  background-color: var(--color-primary-light);
+  padding: 2rem;
+}
+
+.sign-in-page {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+
+}
