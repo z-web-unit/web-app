@@ -4,6 +4,9 @@
   border-bottom: 1px solid #e2e2e2;
 }
 
+.main-nav-link {
+  padding: .5em 2em;
+}
 
 /* Tabs */
 
