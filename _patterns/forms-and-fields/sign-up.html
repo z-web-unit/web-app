@@ -1,0 +1,29 @@
+<div class="pad-b-2 pad-t-2 wrapper">
+
+  <div class="sign-in-page">
+  <div class="grid">
+
+    <div class="signup gutter unit xs-1 s-1 m-2-3 l-2-3">
+      <h1 class="pad-b text-center">Sign up</h1>
+
+      {% pattern forms-and-fields/multi-show-label label="Username" %}
+      {% pattern forms-and-fields/name-label label="Full Name" placeholder="Enter Full Name" %}
+      {% pattern forms-and-fields/username-id-label label="Business/Student ID" placeholder="Enter Username" %}
+      {% pattern forms-and-fields/email-label %}
+      {% pattern forms-and-fields/password-label %}
+    <div class="text-center dashboard-btn">
+        {% pattern buttons/basic linkname="Sign Up" buttonLink="/employer-dashboard" %}
+    </div>
+  </div>
+
+  <div class="gutter log-in-page unit xs-1 s-1 m-1-3 l-1-3">
+    <h1 class="pad-b text-center">Log in</h1>
+
+    {% pattern forms-and-fields/username-id-label label="Username" placeholder="Enter Username" %}
+    {% pattern forms-and-fields/password-label %}
+    <div class="text-center">
+      {% pattern buttons/basic linkname="Log In" buttonLink="/employer-dashboard" %}
+    </div>
+  </div>
+  </div>
+</div>
