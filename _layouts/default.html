@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url =="/job-listings/" or page.url =="/sign-up/" %}
     {% pattern navigations/main-navigation %}
   {% elsif page.url == "/student-dashboard/" %}
     {% pattern navigations/student-navigation %}
