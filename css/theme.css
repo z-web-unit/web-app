@@ -97,3 +97,19 @@ p {
 .section-secondary-light {
   background-color: var(--color-secondary-light);
 }
+
+@media only screen and (min-width: 25em) {
+
+.sc-text-center {
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 40em) {
+
+.sc-text-center {
+  text-align: left;
+}
+
+}
