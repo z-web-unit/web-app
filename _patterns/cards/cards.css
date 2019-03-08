@@ -35,15 +35,6 @@
   transform: rotate(180deg);
 }
 
-.bookmark-icon {
-  color: var(--color-primary);
-}
-
-.bookmark-icon:hover {
-  color: var(--color-secondary-dark);
-  transition: all .3s ease;
-}
-
 .application-card {
   border-top: 1px solid var(--color-secondary-light);
   border-bottom: 1px solid var(--color-secondary-light);
@@ -62,6 +53,17 @@
   display: none;
 }
 
-.icon svg {
-  fill: var(--color-primary);
+.checkmark {
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  color: #ffffff;
+  transition: color .2s ease-in-out;
+}
+
+.container:hover .checkmark {
+  color: var(--color-primary)
+}
+
+.container input:checked ~ .checkmark {
+  color: var(--color-primary);
 }
