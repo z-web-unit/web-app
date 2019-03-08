@@ -20,7 +20,7 @@
       </div>
     </div>
     {% for jobs in site.data.job-listings %}
-      {% pattern cards/job-bookmarks %}
+      {% pattern cards/job-bookmarks data=jobs %}
     {% endfor %}
   </div>
 
