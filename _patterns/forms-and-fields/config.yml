@@ -25,15 +25,25 @@ patterns:
       - name: placeholder
         type: string
         example: "Enter details"
-
-    text-box:
-      title: "Text box"
-      description: |
-        Label for bio
-      fields:
-        - name: label
-          type: string
-          example: "Bio"
-        - name: placeholder
-          type: string
-          example: "Enter details"
+  text-box:
+    title: "Text box"
+    description: |
+      Label for bio
+    fields:
+      - name: label
+        type: string
+        example: "Bio"
+      - name: placeholder
+        type: string
+        example: "Enter details"
+  multi-show-label:
+    title: "Dropdown menu"
+    description: |
+      Label for dropdown menu
+    fields:
+      - name: label
+        type: string
+        example: "Username"
+      - name: id
+        type: string
+        example: "student"
