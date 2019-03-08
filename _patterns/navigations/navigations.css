@@ -4,20 +4,6 @@
   border-bottom: 1px solid #e2e2e2;
 }
 
-.main-nav a {
-  padding: .5em 2em;
-}
-
-.log-in {
-  color: var(--color-primary);
-  border: solid 1px var(--color-primary);
-  border-radius: 25px;
-}
-
-.log-in:hover {
-  background-color: var(--color-primary);
-  color: #fff;
-}
 
 /* Tabs */
 
