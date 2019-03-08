@@ -2,29 +2,36 @@
 layout: default
 ---
 
-<div class="banner  section-secondary-light">
+<section class="banner section-secondary-light">
   <div class="grid grid-middle">
     <div class="unit gutter-2 text-center xs-1 s-1 m-1-2 l-1-2 pad-t-2">
-      <h2 class="exa push-0 color-purple">Get hired with Higher.</h2>
+      <h2 class="exa bold push-0 color-purple">Get Hired With Higher.</h2>
       <p class="mega push">We bring employers and designers together to find their perfect match.</p>
       <div class="push-2">
-        {% pattern buttons/basic linkname="Find jobs" buttonLink="/job-postings" %}
+        {% pattern buttons/basic linkname="Find Jobs" buttonLink="/job-postings" %}
       </div>
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <img class="img-flex " src="/images/landing-page-image.jpg" alt="">
     </div>
   </div>
-</div>
+</section>
 
-<div class="search-bar gutter-2 pad-t-1-2 pad-b-1-2">
-  <div class="w-1 section-secondary-light pad-t-1-2 pad-b-1-2 border">
-    <i class="icon i-32 gutter-2"><svg><use xlink:href="/images/icons.svg#search"></use></svg></i>
+<section class="section-dark pad-t-2 pad-b-2">
+  <p>We know it's difficult finding the perfect job and candidate. We make it easy.</p>
+</section>
+
+<section class="wrapper search-bar gutter-2 pad-t-2 pad-b-2">
+  <h2 class="text-center push-1-2 bold color-purple">It All Starts Here</h2>
+  <div class="island-1-2">
+    <div class="w-1 section-secondary-light pad-t-1-2 pad-b-1-2 border">
+      <i class="icon i-32 gutter-2"><svg><use xlink:href="/images/icons.svg#search"></use></svg></i>
+    </div>
   </div>
-</div>
 
-<div class="grid wrapper">
-  {% for cards in site.data.job-cards %}
-    {% pattern cards/basic-cards image=cards.image brandName=cards.brandName position=cards.position %}
-  {% endfor %}
-</div>
+  <div class="grid">
+    {% for cards in site.data.job-cards %}
+      {% pattern cards/basic-cards image=cards.image brandName=cards.brandName position=cards.position %}
+    {% endfor %}
+  </div>
+</section>
