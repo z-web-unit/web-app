@@ -1,13 +1,15 @@
 .btn {
   font-family: var(--font-primary);
   background-color: var(--color-primary);
+  padding: .5em 2em;
   border: 2px solid var(--color-primary);
 }
 
 .btn:hover {
-  background-color: var(--color-secondary);
-  border: 2px solid var(--color-secondary);
+  background-color: #fff;
   transition: all .2s linear;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn-ghost {

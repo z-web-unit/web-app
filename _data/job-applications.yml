@@ -1,4 +1,13 @@
-- applicantName: Applicant Name
-  location: Branding intern
-  status: 4 months
-  dateApplied: 6 days left
+juniorGraphicDesigner:
+  - position: Junior Graphic Designer
+    applicantName: Laura
+    location: Toronto, Ontario
+    dateApplied: 6 days ago
+  - position: Junior Graphic Designer
+    applicantName: Bob Smith
+    location: Ottawa, Ontario
+    dateApplied: 10 days left
+  - position: Junior Graphic Designer
+    applicantName: Mandy Moore
+    location: Ottawa, Ontario
+    dateApplied: 3 weeks left
