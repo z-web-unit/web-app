@@ -2,7 +2,6 @@
   font-family: var(--font-primary);
   background-color: var(--color-primary);
   border: 2px solid var(--color-primary);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn:hover {
@@ -15,7 +14,6 @@
   background-color: transparent;
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-ghost:hover {
@@ -27,7 +25,6 @@
 
 .btn-light {
   font-family: var(--font-primary);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   background-color: var(--color-white);
   border: 2px solid var(--color-white);
   color: #000;
