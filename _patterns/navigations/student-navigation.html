@@ -13,7 +13,7 @@
       </a>
     </div>
     <div class="unit xs-2-3 s-2-3 m-2-3 l-2-3 text-right">
-      <p aria-label="find jobs" itemprop="Url" class="milli color-dark-gray push-r ib">Zee Jones</p>
+      <p aria-label="find jobs" itemprop="Url" class="milli color-dark-gray push-r ib push-0">Zee Jones</p>
       <input type="checkbox" id="menutoggle">
       <label for="menutoggle" class="menu-icon gutter">
         <i class="icon i-32 open">
@@ -23,15 +23,52 @@
         </i>
       </label>
 
-       <div class="menu text-center">
-         <nav role="navigation" id="nav" tabindex="0" itemprop="Url" tabindex="0" itemscope itemtype="http://schema.org/SiteNavigationElement">
-           <ol class="list-group pad-t-2">
-             <li><a class="milli" href="index.html">Profile</a></li>
-             <li><a class="milli" href="#about">Settings</a></li>
-             <li><a class="milli" href="rescues.html">Log Out</a></li>
+      <div class="menu text-center">
+        <nav role="navigation" id="nav" tabindex="0" itemprop="Url" tabindex="0" itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <ol class="list-group pad-t-2">
+            <li>
+              <a class="milli" href="index.html">
+                <i class="icon i-24 ib gutter-1-2">
+                  <svg>
+                    <use xlink:href="/images/icons.svg#profile"></use>
+                  </svg>
+                </i>
+                <p class="push-0 ib">{{site.data.people.students}}</p>
+              </a>
+            </li>
+            <li>
+              <a class="milli" href="index.html">
+                <i class="icon i-24 ib gutter-1-2">
+                  <svg>
+                    <use xlink:href="/images/icons.svg#history"></use>
+                  </svg>
+                </i>
+                <p class="push-0 ib">History</p>
+              </a>
+            </li>
+            <li>
+              <a class="milli" href="index.html">
+                <i class="icon i-24 ib gutter-1-2">
+                  <svg>
+                    <use xlink:href="/images/icons.svg#settings"></use>
+                  </svg>
+                </i>
+                <p class="push-0 ib">Settings</p>
+              </a>
+            </li>
+            <li>
+              <a class="milli" href="/index">
+                <i class="icon i-24 ib gutter-1-2">
+                  <svg>
+                    <!-- <use xlink:href="/images/icons.svg#profile"></use> -->
+                  </svg>
+                </i>
+                <p class="push-0 ib">Logout</p>
+              </a>
+            </li>
            </ol>
          </nav>
         </div>
     </div>
-  </div>  
+  </div>
 </header>
