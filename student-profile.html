@@ -2,45 +2,41 @@
 layout: default
 ---
   <div class="island">
-      <div class="island grid">
-        <h1 class="unit s-1 primary-color">Profile</h1>
+    <div class="island grid">
+      <h1 class="unit s-1 primary-color">Profile</h1>
 
-        <div class="unit s-1 m-1-2 l-1-2">
-          {% pattern forms-and-fields/name-label label="Name" placeholder="Enter details" %}
-          {% pattern forms-and-fields/text-box %}
-          {% pattern forms-and-fields/name-label label="Location" placeholder="Enter details" %}
-        </div>
-        <div class="unit s-1 m-1-2 l-1-2">
-          <img src="/images/jillpine-logo.png">
-        </div>
+      <div class="unit s-1 m-1-2 l-1-2">
+        {% pattern forms-and-fields/name-label label="Name" placeholder="Enter details" %}
+        {% pattern forms-and-fields/text-box %}
+        {% pattern forms-and-fields/name-label label="Location" placeholder="Enter details" %}
       </div>
-
-
-
-      <div class="section-light">
-        <div class="island">
-        <div>
-          <h2 class="push-1-2 primary-color">Education</h2>
-          <span>{% pattern forms-and-fields/name-label label="Add Education" placeholder="" %}</span>
-        </div>
-        <div class="">
-          <h2 class="push-1-2 primary-color">Experience</h2>
-          {% pattern forms-and-fields/name-label label="Add Experience" placeholder="" %}
-          {% pattern forms-and-fields/submit-label %}
-        </div>
-        </div>
-      </div>
-
-
-
-      <div class="island">
-        <div>
-          <h2 class="push-1-2 primary-color">Skills</h2>
-          {% pattern forms-and-fields/name-label label="Add skills" placeholder="" %}
-        </div>
-        <div class="unit xs-1 s-1">
-          <h2 class="push-1-2 primary-color">Interests</h2>
-          {% pattern forms-and-fields/name-label label="Add interests" placeholder="" %}
-        </div>
+      <div class="unit s-1 m-1-2 l-1-2">
+        <img src="/images/jillpine-logo.png">
       </div>
     </div>
+
+    <div class="section-light">
+      <div class="island">
+      <div>
+        <h2 class="push-1-2 primary-color">Education</h2>
+        <span>{% pattern forms-and-fields/name-label label="Add Education" placeholder="" %}</span>
+      </div>
+      <div class="">
+        <h2 class="push-1-2 primary-color">Experience</h2>
+        {% pattern forms-and-fields/name-label label="Add Experience" placeholder="" %}
+        {% pattern forms-and-fields/submit-label %}
+      </div>
+      </div>
+    </div>
+
+    <div class="island">
+      <div>
+        <h2 class="push-1-2 primary-color">Skills</h2>
+        {% pattern forms-and-fields/name-label label="Add skills" placeholder="" %}
+      </div>
+      <div class="unit xs-1 s-1">
+        <h2 class="push-1-2 primary-color">Interests</h2>
+        {% pattern forms-and-fields/name-label label="Add interests" placeholder="" %}
+      </div>
+    </div>
+  </div>
