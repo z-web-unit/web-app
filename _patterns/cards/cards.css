@@ -1,4 +1,3 @@
-
 .close:checked ~ .email-overlay {
   display: none;
 }
