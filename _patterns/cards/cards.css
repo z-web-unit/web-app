@@ -20,7 +20,7 @@
 }
 
 .emp-card {
-  Background-color: var(--color-primary-light);
+  background-color: var(--color-primary-light);
 }
 
 /* Job Posting Card */
@@ -79,4 +79,15 @@
 
 .container input:checked ~ .checkmark {
   color: var(--color-primary);
+}
+
+.process-grid {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 60em) {
+  .process-grid {
+    max-width: 100%;
+  }
 }
