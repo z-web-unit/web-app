@@ -45,12 +45,6 @@
 .application-card {
   border-top: 1px solid var(--color-secondary-light);
   border-bottom: 1px solid var(--color-secondary-light);
-  transition: all .2s ease-in-out;
-}
-
-.application-card:hover {
-  background-color: var(--color-secondary-light);
-  cursor: pointer;
 }
 
 .job-description {
@@ -69,7 +63,7 @@
 }
 
 .container:hover .checkmark {
-  color: var(--color-primary)
+  color: var(--color-secondary-dark);
 }
 
 .container input:checked ~ .checkmark {

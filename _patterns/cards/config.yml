@@ -10,13 +10,13 @@ patterns:
     fields:
       - name: image
         type: image
-        example: "pepper.jpg"
+        example: "/images/red-melon-logo-colour.png"
       - name: brandName
         type: string
-        example: "Creative"
+        example: "Red Melonn"
       - name: position
         type: string
-        example: "Intern"
+        example: "Graphic Design Intern"
       - name: linkName
         type: string
         example: "Apply Now"
@@ -55,3 +55,19 @@ patterns:
     title: "Employer Posting"
     description: |
       A card to show employers which of their jobs are posted on the board.
+  job-description:
+    title: "Job Description"
+    description: |
+      A card that shows the job description when the posting is clicked.
+  job-application:
+    title: "Job Application"
+    description: |
+      A card to show employers all the applicants that have applied for their posting.
+  email-overlay:
+    title: "Email Overlay"
+    description: |
+      A messaging system that appears when an employer wants to get in contact with an applicant.
+  student-profile-overlay:
+    title: "Student Profile Overlay"
+    description: |
+      When an employer wants to learn more about a candidate, this appears when their application card is clicked on to show their profile.
