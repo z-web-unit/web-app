@@ -8,7 +8,7 @@ layout: default
           <use xlink:href="/images/icons.svg#right-arrow"></use>
         </svg>
       </i>
-      <a href="/student-dashboard">Back to Dashboard</a>
+      <a href="/employer-dashboard">Back to Dashboard</a>
     </div>
     <div class="island grid section-white wrapper">
       <h2 class="unit s-1 primary-color island-1-2 push-0">New Job Posting</h2>
@@ -21,14 +21,17 @@ layout: default
       <div class="unit s-1 m-1 l-1 island-1-2">
         {% pattern forms-and-fields/text-box label="Requirements" placeholder="Everyday job tasks and requirements applicants must meet." %}
       </div>
-      <div class="unit s-1 m-1 l-1 island-1-2">
-        {% pattern forms-and-fields/text-box label="Location" placeholder="Ottawa, Ontario" %}
+      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+        {% pattern forms-and-fields/name-label label="Location" placeholder="Ottawa, Ontario" %}
+      </div>
+      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+        {% pattern forms-and-fields/date-field label="Closing Date" %}
       </div>
       <div class="unit s-1 m-1 l-1 island-1-2">
         {% pattern forms-and-fields/text-box label="Company Description" placeholder="Let applicants know a little about your company." %}
       </div>
       <div class="unit s-1 m-1 l-1 island-1-2 text-center">
-        {% pattern forms-and-fields/submit-label label="Post Job" %}
+        {% pattern buttons/basic linkname="Post Job" buttonLink="/employer-dashboard" %}
       </div>
     </div>
   </section>
