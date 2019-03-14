@@ -7,3 +7,15 @@ patterns:
     title: Main Navigation
     description: |
       Main navigation used on the home page and any page before loging into web application.
+  employer-navigation:
+    title: Employer Navigation
+    description: |
+      This navigation should be used on any screens that represent the employer's dashboard.
+  student-navigation:
+    title: Student Navigation
+    description: |
+      This navigation should be used on any screens that represent the student's dashboard.
+  tabs:
+    title: Student Tabs
+    description: |
+      Navigation used for students to tab between bookmarked jobs and available jobs. Only to be used on the student dashboard.

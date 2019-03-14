@@ -14,12 +14,12 @@
     <div class="grid grid-middle push">
       <div class="unit xs-1 s-1-2 m-1-4 l-1-4 text-left push">
         <i class="">
-          <img class="img-flex" src="/images/{{jobs.brandIcon}}" alt="Logo of {{jobs.company}}">
+          <img class="img-flex" src="/images/{{jobs.brandIcon | default: 'red-melon-logo-black.png'}}" alt="Logo of {{jobs.company}}">
         </i>
       </div>
       <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter text-left">
-        <h2 class="mega push-none">{{jobs.position}}</h2>
-        <p class="milli">{{jobs.company}}</p>
+        <h2 class="mega push-none">{{jobs.position | default: 'Junior Graphic Designer' }}</h2>
+        <p class="milli">{{jobs.company | default: 'Red Melon'}}</p>
       </div>
       <div class="unit xs-1 s-1 m-1-4 l-1-4 text-center push">
         {% pattern buttons/basic %}
@@ -28,19 +28,19 @@
 
     <div class="job-description text-left">
       <h3 class="mega push-1-4">Job Description</h3>
-      <p class="micro">{{jobs.jobDescriptionText}}</p>
+      <p class="micro">{{jobs.jobDescriptionText | default: 'test' }}</p>
     </div>
 
     <div class="requirements text-left">
       <h3 class="mega push-1-4">Job Description</h3>
       <ul class="list-group">
-        <li class="list-group-item micro">{{jobs.requirements}}</li>
+        <li class="list-group-item micro">{{jobs.requirements | default: '• Work with our internal marketing/communications team to develop graphics and other visuals for marketing campaigns, including email marketing, social media, presentation slides, digital advertising, and other related collateral <br> • Work with our research team to develop a branding package (logo design, stationery templates, powerpoint templates, email signatures, colours/fonts, & Wordpress website) <br> • Create compelling layouts and templates through excellent use of typography, colour and photography that reflect our brand.'}}</li>
       </ul>
     </div>
 
     <div class="company-description text-left">
       <h3 class="mega push-1-4">Company Description</h3>
-      <p class="micro">{{jobs.companyDescription}}</p>
+      <p class="micro">{{jobs.companyDescription | default: 'We are an Ottawa based agency working primarily in healthcare. Our goal is to empower individuals to manage their own health information, help health care providers deliver better care and improve the system as a whole. We create tools like practical, easy-to-use apps for people to manage their health information or the health information of their family members.'}}</p>
     </div>
 
   </div>

@@ -1,12 +1,12 @@
 title: "Buttons"
 description: |
-  Buttons library to use in cards, websites, etc.,
+  Buttons are to be used accross the website to link to other pages and or sections.
 
 patterns:
   basic:
-    title: "primary button"
+    title: "Primary Button"
     description:  |
-      Primary button to be used.
+      The primary button is to be used on any light background.
     fields:
       - name: linkName
         type: string
@@ -15,9 +15,9 @@ patterns:
         type: string
         example: "/job-postings"
   ghost:
-    title: "Secondary button"
+    title: "Secondary Nutton"
     description:  |
-      Used for links.
+      The Secondary Ghost Button is to be used when the link needs to stand out from the rest.
     fields:
       - name: linkName
         type: string
@@ -26,9 +26,9 @@ patterns:
         type: string
         example: "/job-postings"
   light-button:
-    title: "Light button"
+    title: "Light Button"
     description:  |
-      Used for links.
+      The Light Button is used on dark backgrounds when the Primary Button does not offer enough contrast.
     fields:
       - name: linkName
         type: string
