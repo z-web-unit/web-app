@@ -1,5 +1,5 @@
 bookmarks:
-  - brandIcon: pepper-logo.png
+  - brandIcon: pepper-logo-black.png
     company: Pepper inc.
     position: Branding intern
     duration: 4 months
@@ -8,21 +8,30 @@ bookmarks:
     jobDescriptionText: The UX / UI Designer will design and execute web and mobile products primarily using HTML, CSS and JavaScript/JQuery. Key responsibilities include creating and translating design wireframes to actual code to produce visual elements defining how the application looks as well as how it works, bridging the gap between creative and technical back-end implementation. The incumbent will have the ability to solve problems and adapt quickly to new web design and application trends.<br>This individual will be based out of Pepper Canada’s Head Office in Ottawa, ON and will report to the Manager, Application Development.
     requirements: • Collaborate with engineering teams on design and development integration.<br>
     companyDescription: Pepper Canada, Inc. is a creative design agency specializing in branding and web design. Headquartered in Ottawa, Ontario, we market and distribute vehicles, parts and accessories through a network of over 85 authorized dealers across Canada. Our commitment to designing and engineering high quality, safe, versatile and fun-to-drive vehicles has won the hearts of Canadians from coast-to-coast. It has also helped our sales and accolades reach record heights. <br>We aim to bring interesting and relevant news to our followers on LinkedIn. As always, we’d love to hear from you if you have any thoughts or stories you’d like to share with us. Please keep it friendly and in line with our “Terms of Use” as we like to keep this space as a place where all Pepper followers can share their love of Pepper.
-  - company: RedMelon
+  - brandIcon: red-melon-logo-black.png
+    company: RedMelon
     position: Junior Designer
     duration: 2 months
     location: Almonte, Onatrio
     daysLeft: 25 days left
-  - company: Number Creative
+    requirements: • Work with our internal marketing/communications team to develop graphics and other visuals for marketing campaigns, including email marketing, social media, presentation slides, digital advertising, and other related collateral <br> • Work with our research team to develop a branding package (logo design, stationery templates, powerpoint templates, email signatures, colours/fonts, & Wordpress website) <br> • Create compelling layouts and templates through excellent use of typography, colour and photography that reflect our brand.
+    companyDescription: We are an Ottawa based agency working primarily in healthcare. Our goal is to empower individuals to manage their own health information, help health care providers deliver better care and improve the system as a whole. We create tools like practical, easy-to-use apps for people to manage their health information or the health information of their family members.
+  - brandIcon: number-logo-black.png
+    company: Number Creative
     position: Web Design Consultant
     duration: 1 year
     location: Ottawa, Ontario
     daysLeft: 48 days left
-  - company: Southern Rally
+    requirements: • Work with developers to create compelling layouts for various clients. <br> • Conduct user research based on markets, target audiences and company goals <br> • Create graphics and assets, such as icons, imagery, illustrations and logos for web projects.
+    companyDescription: We are a small business focused on creating the most compelling websites. Our clients range from small and large, and cross a wide variety of subjects.
+  - brandIcon: southern-rally-logo-black.png
+    company: Southern Rally
     position: Junior Designer
     duration: Full-Time
     location: Ottawa, Ontario
     daysLeft: 78 days left
+    requirements: • Create branding assets, promotional materials, print materials and web graphics for various clients. <br> • Work closely with the marketing department to design captivating pieces that speak to the target audiences. <br>
+    companyDescription: We are Southern Rally, a small marketing agency in Ottawa. We specialize in marketing. We develop the best campaigns to get your product out there and in the right hands.
 available:
   - company: Laser Creative
     position: Web Developper
