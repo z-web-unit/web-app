@@ -10,14 +10,21 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   {% if page.url == "/" or page.url =="/job-listings/" or page.url =="/signup-log-in/" %}
     {% pattern navigations/main-navigation %}
   {% elsif page.url == "/student-dashboard/" %}
     {% pattern navigations/student-navigation %}
-  {% elsif page.url == "/employer-dashboard/" %}
+  {% elsif page.url == "/employer-dashboard/" or page.url == "/email/" %}
     {% pattern navigations/employer-navigation %}
   {% elsif page.url == "/student-profile/" %}
     {% pattern navigations/student-navigation %}
+  {% elsif page.url == "/new-posting/" %}
+    {% pattern navigations/employer-navigation %}
   {% endif %}
 
   <main role="main" id="main" tabindex="0">
@@ -26,28 +33,28 @@
 
   <footer>
     <div class="section-light island">
-      <div class"">
-        <div class="text-center">
+      <div class="text-center">
+        <a href="/index">
           <i class="icon i-192">
             <img class="gutter" itemprop="image" src="/images/logo-32.svg" alt="Higher brand logo that higher">
           </i>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 text-center">
-          <ul itempscope itemtype="http://schema.org/ItemListOrderType" class="list-group-inline pad-b">
-            <li class="list-group-item gutter">
-              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">About Us</a>
-            </li>
-            <li class="list-group-item gutter">
-              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Careers</a>
-            </li>
-            <li class="list-group-item gutter">
-              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Privacy Policy</a>
-            </li>
-            <li class="list-group-item gutter">
-              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Terms & Conditions</a>
-            </li>
-          </ul>
-        </div>
+        </a>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 text-center">
+        <ul itempscope itemtype="http://schema.org/ItemListOrderType" class="list-group-inline pad-b">
+          <li class="list-group-item gutter">
+            <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">About Us</a>
+          </li>
+          <li class="list-group-item gutter">
+            <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Careers</a>
+          </li>
+          <li class="list-group-item gutter">
+            <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Privacy Policy</a>
+          </li>
+          <li class="list-group-item gutter">
+            <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Terms & Conditions</a>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="section-dark pad-t pad-b">

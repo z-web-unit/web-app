@@ -1,4 +1,4 @@
-<section>
+<section itemscope itemtype="https://schema.org/JobPosting">
 
   <input type="checkbox" name="close" value="close" class="close" id="close-card">
   <label class="close-label" for="close-card">
@@ -12,31 +12,27 @@
   <div class="text-left">
 
     <div class="background-white max-length">
-      <h3 class="tera push-none">{{applications.applicantName}}</h3>
-      <p class="push-1-2">{{applications.position}}</p>
+      <h3 class="tera push-none" itemprop="name">{{applications.applicantName}}</h3>
+      <p class="push-1-2" itemprop="position">{{applications.position}}</p>
     </div>
 
     <div class="details max-length pad-t">
       <h4 class="push-1-2">Education</h4>
       <ul class="list-group">
-        <li class="list-group-item">{{applications.education}}</li>
+        <li class="list-group-item" itemprop="education">{{applications.education}}</li>
       </ul>
       <h4 class="push-1-2">Work experience</h4>
       <ul class="list-group">
-        <li class="list-group-item">{{applications.workExperience}} </li>
+        <li class="list-group-item" itemprop="experienceRequirements">{{applications.workExperience}} </li>
       </ul>
       <h4 class="push-1-2">Skills</h4>
       <ul class="list-group">
-        <li class="list-group-item">{{applications.skills}}</li>
+        <li class="list-group-item" itemprop="skills">{{applications.skills}}</li>
       </ul>
     </div>
     <div class="grid text-center max-length pad-t">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 section-dark pad-t-1-2 pad-b-1-2">
-        <a class="mega color-white w-1-2 text-center" href="#">Message</a>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
-        <a class="mega color-primary w-1-2 text-center" href="email-overlay.html">Reject</a>
-      </div>
+      <a class="unit xs-1 s-1 m-1-2 l-1-2 section-dark pad-t-1-2 pad-b-1-2 mega color-white w-1-2 text-center" href="/email">Message</a>
+      <a class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2 mega color-primary w-1-2 text-center" href="#">Reject</a>
     </div>
 
 

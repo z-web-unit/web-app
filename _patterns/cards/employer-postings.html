@@ -1,16 +1,11 @@
-<a class="application-card block">
+<a class="application-card block" itemscope itemtype="https://schema.org/JobPosting">
   <div class="grid grid-middle gutter-2 pad-t pad-b">
     <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-      <h3 class="push-0 milli">{{postings.company}}</h3>
-      <p class="nano push-0 color-dark-gray">{{postings.position}}</p>
+      <h3 class="push-0 milli" itemprop="hiringOrganization">{{postings.company}}</h3>
+      <p class="nano push-0 color-dark-gray" itemprop="position">{{postings.position}}</p>
     </div>
     <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right">
       <p class="ib nano push-0 color-dark-gray">{{postings.daysLeft}}</p>
-      <i class="icon i-32 left-arrow">
-        <svg>
-          <use xlink:href="/images/icons.svg#left-arrow"></use>
-        </svg>
-      </i>
     </div>
   </div>
-</a>
+</div>
