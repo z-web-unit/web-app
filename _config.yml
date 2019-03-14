@@ -3,11 +3,14 @@ theme: jekyll_patternbot
 patternbot:
   title: "Higher"
   description: |
-    A platform for Graphic Designers from Algonquin College to find and apply for employment.
+    A platform for Graphic Designers to find and apply for employment.
   font_url: "https://fonts.googleapis.com/css?family=Sarabun:400,400i,700"
   colors:
     background: "--color-secondary-light"
   rationales:
     colors.primary: |
-      This colour reprents something.
-      
+      The primary colour is a dark purple and as its counterpart, a lighter version.
+    colors.secondary: |
+      The secondary colours have been chosen to accent the purple, and offer solutions for when the primaries do not offer enough contrast on the website.
+    typefaces.primary: |
+      Sarabun was selected as the primary typeface for its simplicity in order to be easy to read on the web. Since it is available in many weights, a secondary font was not needed.

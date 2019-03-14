@@ -1,14 +1,14 @@
-- image: /images/pepper-logo.png
+- image: /images/pepper-logo-colour.png
   brandName: Pepper Inc.
   position: Branding Intern
   linkName: Apply Now
   buttonLink: /log-in
-- image: /images/redmelon-logo.png
+- image: /images/red-melon-logo-colour.png
   brandName: Red Melon
   position: Graphic Design Intern
   linkName: Apply Now
   buttonLink: /log-in
-- image: /images/jillpine-logo.png
+- image: /images/jillpine-logo-colour.png
   brandName: Jillpine
   position: UX/UI Designer
   linkName: Apply Now
