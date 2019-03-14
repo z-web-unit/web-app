@@ -20,3 +20,28 @@ juniorGraphicDesigner:
     education: Algonquin College 2014-2017<br>Graphic Design
     workExperience: • 3+ years’ experience as a UX/UI Designer<br>• 2 years Freelancing experience<br>
     skills: • Wireframing<br>• Protyping<br>• User Research<br>
+  - position: Junior Graphic Designer
+    applicantName: Mandy Moore
+    location: Ottawa, Ontario
+    dateApplied: 3 weeks ago
+    education: gonquin College 2014-2017<br>Graphic Design
+    workExperience: • 3+ years’ experience as a UX/UI Designer<br>• 2 years Freelancing experience<br>
+    skills: • Wireframing<br>• Protyping<br>• User Research<br>
+    
+seniorWebDeveloper:
+  - position: Senior Web Developer
+    applicantName: Jorge Gills
+    location: Toronto, Ontario
+    dateApplied: 2 days ago
+  - position: Senior Web Developer
+    applicantName: Sebastian Tucker
+    location: Ottawa, Ontario
+    dateApplied: 15 days ago
+  - position: Senior Web Developer
+    applicantName: Luciano Frederique
+    location: Ottawa, Ontario
+    dateApplied: 6 weeks ago
+postings:
+  - company: Melany Agency
+    position: Junior Graphic Designer
+    daysLeft: 3 days left

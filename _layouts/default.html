@@ -16,6 +16,8 @@
     {% pattern navigations/student-navigation %}
   {% elsif page.url == "/employer-dashboard/" %}
     {% pattern navigations/employer-navigation %}
+  {% elsif page.url == "/student-profile/" %}
+    {% pattern navigations/student-navigation %}
   {% endif %}
 
   <main role="main" id="main" tabindex="0">
@@ -24,21 +26,32 @@
 
   <footer>
     <div class="section-light island">
-      <ul itempscope itemtype="http://schema.org/ItemListOrderType" class="list-group-inline grid text-center pad-b">
-        <li class="list-group-item gutter unit xs-1 s-1 m-1 l-1">
-          <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">About Us</a>
-        </li>
-        <li class="list-group-item gutter unit xs-1 s-1 m-1 l-1">
-          <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Careers</a>
-        </li>
-        <li class="list-group-item gutter unit xs-1 s-1 m-1 l-1">
-          <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Privacy Policy</a>
-        </li>
-        <li class="list-group-item gutter unit xs-1 s-1 m-1 l-1">
-          <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Terms & Conditions</a>
-        </li>
-      </ul>
-      <p class="text-center push-none"><small class="pico color-dark-gray">© higher inc. 2019</small></p>
+      <div class"">
+        <div class="text-center">
+          <i class="icon i-192">
+            <img class="gutter" itemprop="image" src="/images/logo-32.svg" alt="Higher brand logo that higher">
+          </i>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 text-center">
+          <ul itempscope itemtype="http://schema.org/ItemListOrderType" class="list-group-inline pad-b">
+            <li class="list-group-item gutter">
+              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">About Us</a>
+            </li>
+            <li class="list-group-item gutter">
+              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Careers</a>
+            </li>
+            <li class="list-group-item gutter">
+              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Privacy Policy</a>
+            </li>
+            <li class="list-group-item gutter">
+              <a aria-label="find jobs" itemprop="Url" class="micro color-dark-gray" href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section-dark pad-t pad-b">
+      <p class="text-center push-none"><small class="pico color-white">© Higher Inc. 2019</small></p>
     </div>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
