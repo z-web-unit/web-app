@@ -1,4 +1,4 @@
-<section>
+<section itemscope itemtype="https://schema.org/JobPosting">
 
   <input type="checkbox" name="close" value="close" class="close" id="close-card">
   <label class="close-label" for="close-card">
@@ -18,8 +18,8 @@
         </i>
       </div>
       <div class="unit xs-1 s-1 m-1-4 l-1-4 text-left">
-        <h2 class="mega push-none">{{jobs.position}}</h2>
-        <p class="milli">{{jobs.company}}</p>
+        <h2 class="mega push-none" itemprop="position">{{jobs.position}}</h2>
+        <p class="milli" itemprop="hiringOrganization">{{jobs.company}}</p>
       </div>
       <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 text-left">
       </div>
@@ -30,19 +30,19 @@
 
     <div class="job-description text-left">
       <h3 class="mega push-1-4">Job Description</h3>
-      <p class="micro">{{jobs.jobDescriptionText}}</p>
+      <p class="micro" itemprop="description">{{jobs.jobDescriptionText}}</p>
     </div>
 
     <div class="requirements text-left">
       <h3 class="mega push-1-4">Requirements</h3>
       <ul class="list-group">
-        <li class="list-group-item micro">{{jobs.requirements}}</li>
+        <li class="list-group-item micro" itemprop="requirements">{{jobs.requirements}}</li>
       </ul>
     </div>
 
     <div class="company-description text-left">
       <h3 class="mega push-1-4">Company Description</h3>
-      <p class="micro">{{jobs.companyDescription}}</p>
+      <p class="micro" itemprop="description">{{jobs.companyDescription}}</p>
     </div>
 
   </div>
