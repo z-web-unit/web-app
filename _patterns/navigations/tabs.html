@@ -45,7 +45,7 @@
       </div>
     </div>
     {% for jobs in site.data.job-listings.available %}
-      {% pattern cards/job-postings company=jobs.company position=jobs.position duration=jobs.duration location=jobs.location daysLeft=jobs.daysLeft %}
+      {% pattern cards/job-postings  %}
     {% endfor %}
   </div>
 </div>

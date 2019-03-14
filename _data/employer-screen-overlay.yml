@@ -5,8 +5,13 @@ emailReply:
   signature: Thanks & Regards,<br>Rosamund Pike
 
 studentProfile:
-  fullName: Jill Rebel
-  position: 3rd year Graphic Design Student
-  education: Algonquin College 2014-2017<br>Graphic Design
-  workExperience: • 3+ years’ experience as a UX/UI Designer<br>• 2 years Freelancing experience<br>
-  skills: • Wireframing<br>• Protyping<br>• User Research<br>
+  - fullName: Jill Rebel
+    position: 3rd year Graphic Design Student
+    education: Algonquin College 2014-2017<br>Graphic Design
+    workExperience: • 3+ years’ experience as a UX/UI Designer<br>• 2 years Freelancing experience<br>
+    skills: • Wireframing<br>• Protyping<br>• User Research<br>
+  - fullName: Francois Mittins
+    position: 3rd year Graphic Design Student
+    education: Algonquin College 2014-2017<br>Graphic Design
+    workExperience: • 3+ years’ experience as a UX/UI Designer<br>• 2 years Freelancing experience<br>
+    skills: • Wireframing<br>• Protyping<br>• User Research<br>

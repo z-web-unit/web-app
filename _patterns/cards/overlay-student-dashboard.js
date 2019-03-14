@@ -1,11 +1,10 @@
 var $leftArrowStudent = $('.left-arrow-student');
-var $jobDescription = $('.job-description');
 var $closeLabel = $('.close-label');
 
 $leftArrowStudent.on('click', function () {
-  $jobDescription.show();
+  $(this).siblings('.job-description').show();
 });
 
 $closeLabel.on('click', function () {
-  $jobDescription.hide();
+  $('.job-description').hide();
 });
