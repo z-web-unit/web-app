@@ -44,11 +44,6 @@
   display: none;
 }
 
-.job-description-overlay,
-.student-profile-overlay {
-  width: 60vw;
-}
-
 .student-profile-overlay {
   display: none;
 }
@@ -66,4 +61,20 @@
 
 .container input:checked ~ .checkmark {
   color: var(--color-primary);
+}
+
+.job-description,
+.student-profile-overlay {
+  width: 100vw;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .job-description,
+  .student-profile-overlay {
+    width: 60vw;
+    z-index: 10;
+  }
+
 }

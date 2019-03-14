@@ -1,5 +1,6 @@
 bookmarks:
-  - company: Pepper inc.
+  - brandIcon: pepper-logo.png
+    company: Pepper inc.
     position: Branding intern
     duration: 4 months
     location: Ottawa, Ontario
