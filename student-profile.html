@@ -3,15 +3,16 @@ layout: default
 title: Profile | Higher
 meta: Bio, basic details, education and skills of a student.
 ---
-  <section class="section-secondary-light pad-t-2">
-    <div class="push wrapper">
-      <i class="icon i-32 left-arrow-student">
-        <svg>
-          <use xlink:href="/images/icons.svg#right-arrow"></use>
-        </svg>
-      </i>
-      <a href="/student-dashboard">Back to Dashboard</a>
-    </div>
+<section class="section-secondary-light pad-t-2">
+  <div class="push wrapper gutter">
+    <i class="icon i-32 left-arrow-student">
+      <svg>
+        <use xlink:href="/images/icons.svg#right-arrow"></use>
+      </svg>
+    </i>
+    <a href="/student-dashboard">Back to Dashboard</a>
+  </div>
+  <div class="gutter">
     <div class="island grid section-white wrapper">
       <h2 class="unit s-1 primary-color island-1-2 push-0">Basic Information</h2>
       <div class="unit s-1 m-1-2 l-1-2 island-1-2">
@@ -33,35 +34,36 @@ meta: Bio, basic details, education and skills of a student.
         {% pattern forms-and-fields/submit-label label="Save Changes" %}
       </div>
     </div>
-  </section>
-  <section class="section-secondary-light pad-t-2">
-    <div class="island grid section-white wrapper">
-      <h2 class="unit s-1 primary-color island-1-2 push-0">About Me</h2>
-      <div class="unit s-1 m-1 l-1 island-1-2">
-        {% pattern forms-and-fields/text-box label="Write something about yourself" placeholder="I'm a Graphic Designer from Ottawa" %}
-      </div>
-      <div class="unit s-1 m-1 l-1 island-1-2 text-center">
-        {% pattern forms-and-fields/submit-label label="Save Changes" %}
-      </div>
+  </div>
+</section>
+<section class="section-secondary-light gutter  pad-t-2">
+  <div class="island grid section-white wrapper">
+    <h2 class="unit s-1 primary-color island-1-2 push-0">About Me</h2>
+    <div class="unit s-1 m-1 l-1 island-1-2">
+      {% pattern forms-and-fields/text-box label="Write something about yourself" placeholder="I'm a Graphic Designer from Ottawa" %}
     </div>
-  </section>
-  <section class="section-secondary-light pad-t-2 pad-b-2">
-    <div class="island grid section-white wrapper">
-      <h2 class="unit s-1 primary-color island-1-2 push-0">Work Experience</h2>
-        <div class="unit s-1 m-1 l-1 island-1-2">
-          {% pattern forms-and-fields/name-label label="Company Name" placeholder="Government of Canada" %}
-        </div>
-        <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-          {% pattern forms-and-fields/name-label label="Position" placeholder="Graphic Designer" %}
-        </div>
-        <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-          {% pattern forms-and-fields/name-label label="Date" placeholder="July 2017 - October 2018" %}
-        </div>
-        <div class="unit s-1 m-1 l-1 island-1-2">
-          {% pattern forms-and-fields/text-box label="Job Description" placeholder="Write about your time at this position." %}
-        </div>
-        <div class="unit s-1 m-1 l-1 island-1-2 text-center">
-          {% pattern forms-and-fields/submit-label label="Save Changes" %}
-        </div>
-      </div>
-  </section>
+    <div class="unit s-1 m-1 l-1 island-1-2 text-center">
+      {% pattern forms-and-fields/submit-label label="Save Changes" %}
+    </div>
+  </div>
+</section>
+<section class="section-secondary-light gutter pad-t-2 pad-b-2">
+  <div class="island grid section-white wrapper">
+    <h2 class="unit s-1 primary-color island-1-2 push-0">Work Experience</h2>
+    <div class="unit s-1 m-1 l-1 island-1-2">
+      {% pattern forms-and-fields/name-label label="Company Name" placeholder="Government of Canada" %}
+    </div>
+    <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+      {% pattern forms-and-fields/name-label label="Position" placeholder="Graphic Designer" %}
+    </div>
+    <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+      {% pattern forms-and-fields/name-label label="Date" placeholder="July 2017 - October 2018" %}
+    </div>
+    <div class="unit s-1 m-1 l-1 island-1-2">
+      {% pattern forms-and-fields/text-box label="Job Description" placeholder="Write about your time at this position." %}
+    </div>
+    <div class="unit s-1 m-1 l-1 island-1-2 text-center">
+      {% pattern forms-and-fields/submit-label label="Save Changes" %}
+    </div>
+  </div>
+</section>

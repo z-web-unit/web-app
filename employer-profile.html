@@ -1,0 +1,50 @@
+---
+layout: default
+title: Employer Profile | Higher
+meta: Bio, basic details of employers.
+---
+  <section class="section-secondary-light pad-t-2">
+    <div class="push wrapper">
+      <i class="icon i-32 left-arrow-student">
+        <svg>
+          <use xlink:href="/images/icons.svg#right-arrow"></use>
+        </svg>
+      </i>
+      <a href="/employer-dashboard">Back to Dashboard</a>
+    </div>
+    <div class="island grid section-white wrapper">
+      <h2 class="unit s-1 primary-color island-1-2 push-0">Basic Information</h2>
+      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+        {% pattern forms-and-fields/name-label label="Name" placeholder="Zee" %}
+      </div>
+      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+        {% pattern forms-and-fields/name-label label="Last Name" placeholder="Jones" %}
+      </div>
+      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+        {% pattern forms-and-fields/name-label label="Occupation" placeholder="Graphic Designer" %}
+      </div>
+      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+        {% pattern forms-and-fields/name-label label="Company" placeholder="Pepper Inc." %}
+      </div>
+      <div class="unit s-1 m-1 l-1 island-1-2">
+        {% pattern forms-and-fields/name-label label="Location" placeholder="Ottawa, Ontario" %}
+      </div>
+      <div class="unit s-1 m-1 l-1 island-1-2">
+        {% pattern forms-and-fields/name-label label="Website URL" placeholder="www.zeejones.ca" %}
+      </div>
+      <div class="unit s-1 m-1 l-1 island-1-2 text-center">
+        {% pattern forms-and-fields/submit-label label="Save Changes" %}
+      </div>
+    </div>
+  </section>
+  <section class="section-secondary-light pad-t-2 pad-b-2">
+    <div class="island grid section-white wrapper">
+      <h2 class="unit s-1 primary-color island-1-2 push-0">About Me</h2>
+      <div class="unit s-1 m-1 l-1 island-1-2">
+        {% pattern forms-and-fields/text-box label="Write something about yourself" placeholder="I'm a Graphic Designer from Ottawa" %}
+      </div>
+      <div class="unit s-1 m-1 l-1 island-1-2 text-center">
+        {% pattern forms-and-fields/submit-label label="Save Changes" %}
+      </div>
+    </div>
+  </section>

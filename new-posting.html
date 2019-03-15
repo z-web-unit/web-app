@@ -2,7 +2,7 @@
 layout: default
 ---
   <section class="section-secondary-light pad-t-2">
-    <div class="push wrapper">
+    <div class="push wrapper gutter">
       <i class="icon i-32 left-arrow-student">
         <svg>
           <use xlink:href="/images/icons.svg#right-arrow"></use>
@@ -10,28 +10,30 @@ layout: default
       </i>
       <a href="/employer-dashboard">Back to Dashboard</a>
     </div>
-    <div class="island grid section-white wrapper">
-      <h2 class="unit s-1 primary-color island-1-2 push-0">New Job Posting</h2>
-      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-        {% pattern forms-and-fields/name-label label="Position Title" placeholder="Junior Graphic Designer" %}
-      </div>
-      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-        {% pattern forms-and-fields/name-label label="Company Name" placeholder="Melany Agency" %}
-      </div>
-      <div class="unit s-1 m-1 l-1 island-1-2">
-        {% pattern forms-and-fields/text-box label="Requirements" placeholder="Everyday job tasks and requirements applicants must meet." %}
-      </div>
-      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-        {% pattern forms-and-fields/name-label label="Location" placeholder="Ottawa, Ontario" %}
-      </div>
-      <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-        {% pattern forms-and-fields/date-field label="Closing Date" %}
-      </div>
-      <div class="unit s-1 m-1 l-1 island-1-2">
-        {% pattern forms-and-fields/text-box label="Company Description" placeholder="Let applicants know a little about your company." %}
-      </div>
-      <div class="unit s-1 m-1 l-1 island-1-2 text-center">
-        {% pattern buttons/basic linkname="Post Job" buttonLink="/employer-dashboard" %}
+    <div class="gutter wrapper">
+      <div class="section-white grid island-1-2">
+        <h2 class="unit s-1 primary-color island-1-2 push-0">New Job Posting</h2>
+        <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+          {% pattern forms-and-fields/name-label label="Position Title" placeholder="Junior Graphic Designer" %}
+        </div>
+        <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+          {% pattern forms-and-fields/name-label label="Company Name" placeholder="Melany Agency" %}
+        </div>
+        <div class="unit s-1 m-1 l-1 island-1-2 push">
+          {% pattern forms-and-fields/text-box label="Requirements" placeholder="Everyday job tasks and requirements applicants must meet." %}
+        </div>
+        <div class="unit s-1 m-1-2 l-1-2 island-1-2">
+          {% pattern forms-and-fields/name-label label="Location" placeholder="Ottawa, Ontario" %}
+        </div>
+        <div class="unit s-1 m-1-2 l-1-2 island-1-2 push">
+          {% pattern forms-and-fields/date-field label="Closing Date" %}
+        </div>
+        <div class="unit s-1 m-1 l-1 island-1-2">
+          {% pattern forms-and-fields/text-box label="Company Description" placeholder="Let applicants know a little about your company." %}
+        </div>
+        <div class="unit s-1 m-1 l-1 island-1-2 text-center">
+          {% pattern buttons/basic linkname="Post Job" buttonLink="/employer-dashboard" %}
+        </div>
       </div>
     </div>
   </section>
