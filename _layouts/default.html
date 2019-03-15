@@ -25,7 +25,10 @@
     {% pattern navigations/student-navigation %}
   {% elsif page.url == "/new-posting/" %}
     {% pattern navigations/employer-navigation %}
+  {% elsif page.url == "/employer-profile/" %}
+    {% pattern navigations/employer-navigation %}
   {% endif %}
+
 
   <main role="main" id="main" tabindex="0">
     {{content}}

@@ -26,6 +26,8 @@
   transition: background 0.1s, color 0.1s;
   font-family: var(--font-primary);
   font-weight: 500;
+  width: 45%;
+  display: inline-block;
 }
 
 [type="radio"] + label::before {
@@ -51,6 +53,8 @@
 .panel {
   display: none;
 }
+
+
 
 /* Student Menu */
 
@@ -125,17 +129,21 @@ label.menu-icon:hover {
   left: 0;
 }
 
-@media (min-width: 600px) {
-  .label {
-    width: auto;
-  }
-
-  .panel {
-    order: 99;
-  }
+.label {
+  width: auto;
 }
 
-  .input:checked + .label + .panel {
-    display: block;
+.panel {
+  order: 50;
+}
+
+
+.input:checked + .label + .panel {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+  .text-left {
+    text-align: left;
   }
 }
