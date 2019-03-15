@@ -8,3 +8,9 @@ $leftArrowEmployer.on('click', function () {
 $closeLabel.on('click', function () {
   $('.student-profile-overlay').hide();
 });
+
+
+var $companyPopup = $('.company-popup');
+$companyPopup.on('click', function () {
+  $(this).parent().siblings('.job-data').children(".student-profile-overlay").show();
+});
