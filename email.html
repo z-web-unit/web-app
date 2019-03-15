@@ -4,11 +4,18 @@ title: Email | Higher
 meta: Email template for the employer to send to a potential applicant.
 ---
 
-<div class="wrapper pad-t">
-  <a href="/employer-dashboard" class="milli">
-    <i class="icon i-48"><svg><use xlink:href="/images/icons.svg#left-arrow"></use></svg></i> Back to Dashboard
-  </a>
-  <section class="push-2 gutter-2 pad-t-2">
-    {% pattern cards/email-overlay %}
-  </section>
-</div>
+<section class="section-secondary-light pad-t-2 pad-b-2">
+  <div class="push wrapper">
+    <i class="icon i-32 left-arrow-student">
+      <svg>
+        <use xlink:href="/images/icons.svg#right-arrow"></use>
+      </svg>
+    </i>
+    <a href="/employer-dashboard">Back to Dashboard</a>
+  </div>
+  <div class="wrapper pad-t section-white">
+    <section class="push-2 gutter-2 pad-t-2 pad-b-2">
+      {% pattern cards/email-overlay %}
+    </section>
+  </div>
+</section>
