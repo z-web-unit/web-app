@@ -1,7 +1,7 @@
 <div itemscope itemtype="https://schema.org/JobPosting">
   <div class="grid grid-middle job-posting-grid pad-t-1-2 pad-b-1-2 gutter-1-2">
     <div class="unit xs-1-3 s-1-3 m-1-5 text-center">
-        <h3 class="milli push-0 text-left" itemprop="hiringOrganization">{{jobs.company | default: 'Pepper'}}</h3>
+        <h3 class="milli push-0 text-left company-popup" itemprop="hiringOrganization">{{jobs.company | default: 'Pepper'}}</h3>
     </div>
     <div class="unit xs-1-3 s-1-3 m-1-5 gutter-1-4 pad-t-1-2 pad-b-1-2 text-center">
         <p class="nano color-dark-gray push-0 text-center" itemprop="position">{{jobs.position | default: 'Graphic Designer'}}</p>
@@ -12,7 +12,7 @@
     <div class="unit xs-0 s-0 m-1-5 gutter pad-t-1-2 pad-b-1-2 text-center">
         <p class="nano color-dark-gray push-0">{{jobs.daysLeft | default: '4 days left'}}</p>
     </div>
-    <div class="unit xs-1-3 s-1-3 m-1-5 gutter pad-t-1-2 pad-b-1-2 text-right">
+    <div class="unit xs-1-3 s-1-3 m-1-5 gutter pad-t-1-2 pad-b-1-2 text-right job-data">
       <label class="container ib">
         <input type="checkbox">
         <span class="checkmark">

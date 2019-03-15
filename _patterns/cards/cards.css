@@ -76,6 +76,15 @@
   z-index: 10;
 }
 
+.company-popup:hover {
+  cursor: pointer;
+}
+
+.left-arrow-student,
+.left-arrow-employer {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 38em) {
 
   .job-description,
