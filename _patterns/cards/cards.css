@@ -80,10 +80,14 @@
 
   .job-description,
   .student-profile-overlay {
-    width: 60vw;
+    width: 100vw;
     z-index: 10;
   }
 
+  .w-60 {
+    width: 60vw;
+    margin: 0 auto;
+  }
   .process-grid {
     max-width: 75%;
     margin: 0 auto;
