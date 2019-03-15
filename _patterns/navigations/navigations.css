@@ -59,11 +59,11 @@
 /* Student Menu */
 
 .menu {
-  width: 240px;
+  width: 300px;
   height: 100%;
   position: absolute;
   background-color: var(--color-primary);
-  left: -240px;
+  left: -300px;
   top: 0;
   z-index: 1;
   transition: all .3s ease-in-out;
