@@ -90,6 +90,11 @@ strong {
   background-color: var(--color-secondary-light);
 }
 
+/*@utility Apply purple background at half opacity*/
+.section-overlay {
+  background-color: rgba(93, 57, 216, .5);
+}
+
 li,
 p {
   font-family: var(--font-primary);
