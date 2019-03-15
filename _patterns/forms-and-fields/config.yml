@@ -47,3 +47,14 @@ patterns:
       - name: id
         type: string
         example: "student"
+  email-label:
+    title: "Email"
+    description: |
+      Email field.
+    fields:
+      - name: label
+        type: string
+        example: "Email"
+      - name: placeholder
+        type: string
+        example: "abc@gmail.com"

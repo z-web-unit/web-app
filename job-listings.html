@@ -3,11 +3,11 @@ layout: default
 title: Job Listings | Higher
 meta: Job opportunies for students in the design industry.
 ---
-<div class="gutter">
+<div class="gutter-2 pad-t-2 push-0">
   {% pattern forms-and-fields/icon-field placeholder="Search" %}
 </div>
 <div class="island-2">
-  {% for jobs in site.data.job-listings %}
-    {% pattern cards/job-postings company=jobs.company position=jobs.position duration=jobs.duration location=jobs.location daysLeft=jobs.daysLeft %}
+  {% for jobs in site.data.job-listings.bookmarks %}
+    {% pattern cards/job-bookmarks data=jobs %}
   {% endfor %}
 </div>

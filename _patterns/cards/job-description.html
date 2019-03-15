@@ -12,20 +12,21 @@
   <div class="background-white max-length">
 
     <div class="grid grid-middle push">
-      <div class="unit xs-1 s-1-2 m-1-4 l-1-4 text-left push">
-        <i class="">
+      <div class="unit xs-1 s-1-2 m-1-3 l-1-3 text-left push">
+        <i>
           <img class="img-flex" src="/images/{{jobs.brandIcon | default: 'red-melon-logo-black.png'}}" alt="Logo of {{jobs.company}}">
         </i>
       </div>
 
-      <div class="unit xs-1 s-1 m-1-4 l-1-4 text-left">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter text-left">
         <h2 class="mega push-none" itemprop="position">{{jobs.position}}</h2>
         <p class="milli" itemprop="hiringOrganization">{{jobs.company}}</p>
 
       </div>
-      <div class="unit xs-1 s-1 m-1-4 l-1-4 text-center push">
-        {% pattern buttons/basic %}
-      </div>
+
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center push">
+          {% pattern buttons/basic linkName="Apply Now" buttonLink="/signup-log-in" %}
+        </div>
     </div>
 
     <div class="job-description text-left">
