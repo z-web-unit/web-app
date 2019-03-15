@@ -12,22 +12,22 @@
   <div class="text-left">
 
     <div class="background-white max-length">
-      <h3 class="tera push-none" itemprop="name">{{applications.applicantName}}</h3>
-      <p class="push-1-2 gutter-1-2" itemprop="position">{{applications.position}}</p>
+      <h3 class="tera push-none" itemprop="name">{{applications.applicantName | default: 'Zee Jones'}}</h3>
+      <p class="push-1-2 gutter-1-2" itemprop="position">{{applications.position | default: 'Junior Graphic Designer'}}</p>
     </div>
 
     <div class="details max-length pad-t">
       <h4 class="push-1-2">Education</h4>
       <ul class="list-group">
-        <li class="list-group-item" itemprop="education">{{applications.education}}</li>
+        <li class="list-group-item" itemprop="education">{{applications.education | default: 'Advanced Diploma in Graphic Design, Algonquin College'}}</li>
       </ul>
-      <h4 class="push-1-2">Work experience</h4>
+      <h4 class="push-1-2">Work Experience</h4>
       <ul class="list-group">
-        <li class="list-group-item" itemprop="experienceRequirements">{{applications.workExperience}} </li>
+        <li class="list-group-item" itemprop="experienceRequirements">{{applications.workExperience | default: 'Freelance Designer, 2016 - present'}} </li>
       </ul>
       <h4 class="push-1-2">Skills</h4>
       <ul class="list-group">
-        <li class="list-group-item" itemprop="skills">{{applications.skills}}</li>
+        <li class="list-group-item" itemprop="skills">{{applications.skills | default: '• Web Design <br> • Illustration </br> • Typography & Layout'}}</li>
       </ul>
     </div>
     <div class="grid text-center max-length pad-t">

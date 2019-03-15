@@ -10,16 +10,13 @@
   </label>
 
   <div class="background-white max-length">
-
     <div class="grid grid-middle push">
-
       <div class="unit xs-1 s-1-2 m-1-2 l-1-3 text-left push">
           <img class="img-flex" src="/images/{{jobs.brandIcon | default: 'red-melon-logo-black.png'}}" alt="Logo of {{jobs.company}}">
       </div>
-
       <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter text-left">
-        <h2 class="mega push-none" itemprop="position">{{jobs.position}}</h2>
-        <p class="milli" itemprop="hiringOrganization">{{jobs.company}}</p>
+        <h2 class="mega push-none" itemprop="position">{{jobs.position | default: Junior Graphic Designer}}</h2>
+        <p class="milli" itemprop="hiringOrganization">{{jobs.company | default: Red Melon}}</p>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center push">
         {% pattern buttons/basic linkName="Apply Now" buttonLink="/signup-log-in" %}
@@ -28,22 +25,20 @@
 
     <div class="job-description text-left">
       <h3 class="mega push-1-4">Job Description</h3>
-      <p class="micro" itemprop="description">{{jobs.jobDescriptionText}}</p>
+      <p class="micro" itemprop="description">{{jobs.jobDescriptionText | default: '• Work with our internal marketing/communications team to develop graphics and other visuals for marketing campaigns, including email marketing, social media, presentation slides, digital advertising, and other related collateral <br> • Work with our research team to develop a branding package (logo design, stationery templates, powerpoint templates, email signatures, colours/fonts, & Wordpress website) <br> • Create compelling layouts and templates through excellent use of typography, colour and photography that reflect our brand.'}}</p>
     </div>
 
     <div class="requirements text-left">
       <h3 class="mega push-1-4">Job Description</h3>
       <ul class="list-group">
-        <li class="list-group-item micro" itemprop="requirements">{{jobs.requirements}}</li>
+        <li class="list-group-item micro" itemprop="requirements">{{jobs.requirements | default: '• Work with our internal marketing/communications team to develop graphics and other visuals for marketing campaigns, including email marketing, social media, presentation slides, digital advertising, and other related collateral <br> • Work with our research team to develop a branding package (logo design, stationery templates, powerpoint templates, email signatures, colours/fonts, & Wordpress website) <br> • Create compelling layouts and templates through excellent use of typography, colour and photography that reflect our brand.'}}</li>
       </ul>
     </div>
 
     <div class="company-description text-left">
       <h3 class="mega push-1-4">Company Description</h3>
-      <p class="micro" itemprop="description">{{jobs.companyDescription}}</p>
+      <p class="micro" itemprop="description">{{jobs.companyDescription | default: 'We are an Ottawa based agency working primarily in healthcare. Our goal is to empower individuals to manage their own health information, help health care providers deliver better care and improve the system as a whole. We create tools like practical, easy-to-use apps for people to manage their health information or the health information of their family members.'}}</p>
 
     </div>
-
   </div>
-
 </section>
